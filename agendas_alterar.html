@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Clinsav - Aviso!</title>
+    <title>Clinsav - Alterar agendas</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
@@ -12,30 +12,28 @@
 
     <a href="#">ajuda</a>
     
+    <h3>Agenda 001</h3>
+
     <hr>
-    <h3>Cadastro de novas agendas</h3>
 
     <form action="">
-        <label for="cpf">Informe o CPF do paciente para buscá-lo</label>
-        <input type="search" name="input_cpf" placeholder="CPF (apenas números)">
-        <br><br>
         <input type="text" name="input_fullName" placeholder="Nome completo">
         <input type="text" name="input_specialty" placeholder="Especialidade">
-        <input type="text" name="input_doctor" placeholder="Médico">
         <label for="opt_type">Tipo de consulta</label>
         <select name="opt_type" id="opt_type">
             <option value="return">Retorno</option>
             <option value="first">Primeria consulta</option>
         </select>
+        <input type="text" name="input_doctor" placeholder="Médico">
         <input type="date" name="input_date" placeholder="Data da consulta">
         <input type="text" name="input_hour" placeholder="Horário">
         <input type="number" name="input_number" placeholder="Número do consultório">
         <input type="number" name="input_price" placeholder="Valor">
         <input type="text" name="input_comments" placeholder="Observações">
-   
+
         <button type="submit">Salvar</button>
-        <button type="reset">Limpar</button>
-    </form>
+        <button type="submit">Cancelar</button>
+    </form> 
 
 </body>
 </html>
