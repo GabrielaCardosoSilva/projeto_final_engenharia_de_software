@@ -12,10 +12,12 @@
 
     <a href="#">ajuda</a>
     
-    <h1>Consultar agendas ativas</h1>
+    <h2>Selecionar agendas para impressão</h2>
+    <p>Aplique filtros para facilitar a visualização.</p>
+
     <hr>
 
-    <h2>Selecione um filtro para realizar uma busca:</h2>
+    <label for="check">Selecione um filtro para realizar uma busca:</label>
     <input type="checkbox" name="ipt_check_id" id="ipt_check_id" value="ipt_check_id">
     <label for="ipt_check_id">Código id</label>
     <input type="checkbox" name="ipt_check_patient" id="ipt_check_patient" value="ipt_check_patient">
@@ -29,18 +31,11 @@
     <input type="checkbox" name="ipt_check_doctor" id="ipt_check_doctor" value="ipt_check_doctor">
     <label for="ipt_check_doctor">Médicos</label>
 
-    <input type="search" name="input_search" id="input_search">
-
-    <h3>(emoji) Todas as agendas</h3>
-
     <div>
-        <p>dd/mm/aaaa</p>
-        <p>00:00</p>
-        <p><strong>Médico:</strong>Nome do médico</p>
-        <p><strong>Especialidade:</strong>Nome da especialidade</p>
-        <p><strong>Paciente:</strong>Nome do paciente</p>
+        <p>Informações recuperadas do bd</p>
 
-        <button type="submit">Salvar</button>
+        <button type="submit">Imprimir</button>
+        <button type="submit">Voltar</button>
     </div> 
 
 </body>
