@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta cSharset='utf-8'>
+    <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Clinsav - Alterar pacientes</title>
+    <title>Clinsav - Aviso!</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
@@ -13,11 +13,13 @@
     <a href="#">ajuda</a>
     
     <hr>
-    <h1>Alterar dados cadastrais do paciente</h1>
+    <h1>Cadastro de novos médicos</h1>
+    <p>Os campos marcados com * são obrigatórios</p>
 
     <form action="">
         <input type="text" name="input_fullName" placeholder="Nome completo">
         <input type="search" name="input_cpf" placeholder="CPF (apenas números)">
+        <input type="search" name="input_crm" placeholder="CRM (apenas números)">
         <label for="opt_gender">Gênero:</label>
         <select name="opt_gender" id="opt_type">
             <option value="select">Gênero - selecione:</option>
@@ -52,7 +54,7 @@
         <input type="tel" name="input_tel2" id="input_tel2" placeholder="Telefone secundário">
         <input type="number" name="input_healthInsurance" placeholder="Número do convênio">
         <button type="submit">Salvar</button>
-        <button type="reset">Cancelar</button>
+        <button type="reset">Limpar</button>
     </form>
 
 </body>
