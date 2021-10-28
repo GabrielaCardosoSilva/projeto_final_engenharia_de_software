@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.menu{
+    background-color: #8A9EBA;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+}
+
+.menu .header{
+    color: #FFF;
+    padding: 20px;
+    border-bottom: 1px solid #FFF;
+
+}
+
+.clinsav{
+    font-weight: normal;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+}
+
+.user{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.settings{
+    float: left;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.menu ul li a{
+    padding: 20px;
+    color:#FFF;
+    display: block;
+}
+
+.menu ul li a span{
+    position: absolute;
+    right: 20px;
+    line-height: 10px;
+}
+
+a:hover{
+    background-color: #67788F;
+    transition: 0.5s;
+}
+
+.menu ul li{
+    line-height: 10px;
+}
+
+.page{
+    font-weight: bold;
+}
+
+.subpage{
+    font-size: 16px;
+    padding-left: 50px;
+    list-style: none;
+    display: none;
+}
+
+.subcalendar.show{
+    display: block;
+}
+
+.subpatient.show{
+    display: block;
+}
+
+.subtreatment.show{
+    display: block;
+}
+
+.subdoctor.show{
+    display: block;
+}
+
+.subspecialty.show{
+    display: block;
+}
+
+.button-calendar.spin{
+    transform: rotate(90deg);
+}
+
+.button-patient.spin{
+    transform: rotate(90deg);
+}
+
+.button-treatment.spin{
+    transform: rotate(90deg);
+}
+
+.button-doctor.spin{
+    transform: rotate(90deg);
+}
+.button-specialty.spin{
+    transform: rotate(90deg);
+}
