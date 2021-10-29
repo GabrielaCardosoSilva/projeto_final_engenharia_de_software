@@ -11,7 +11,6 @@
     color: #FFF;
     padding: 20px;
     border-bottom: 1px solid #FFF;
-
 }
 
 .clinsav{
@@ -45,7 +44,7 @@
     line-height: 10px;
 }
 
-a:hover{
+.menu ul li a:hover{
     background-color: #67788F;
     transition: 0.5s;
 }

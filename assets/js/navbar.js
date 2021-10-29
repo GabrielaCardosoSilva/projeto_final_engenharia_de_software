@@ -22,4 +22,3 @@ $('.specialty').click(function(){
     $('.menu ul .subspecialty').toggleClass('show');
     $('.menu ul .button-specialty').toggleClass('spin');
 });
-

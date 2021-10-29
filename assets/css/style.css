@@ -1,0 +1,31 @@
+.grid-container{
+    display: grid;  
+    grid-template-columns: 300px auto;
+    grid-template-rows: 119px auto;
+    grid-template-areas:
+    "nav title"
+    "nav body";
+}
+
+.navbar{
+    grid-area: nav;
+}
+
+.title{
+    grid-area: title;
+}
+
+.body{
+    grid-area: body;
+}
+
+.header-title{
+    font-weight: normal;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #8A9EBA;
+}
+
+.help{
+    color: #8A9EBA;
+}
