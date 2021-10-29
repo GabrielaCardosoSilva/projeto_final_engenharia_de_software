@@ -13,19 +13,24 @@
 
 .title{
     grid-area: title;
+    border-bottom: 1px solid #8A9EBA;
 }
 
 .body{
     grid-area: body;
 }
 
-.header-title{
+.h1-title{
     font-weight: normal;
     font-family: 'Lora', serif;
     font-size: 30px;
     color: #8A9EBA;
+    padding-top: 60px;
+    padding-left: 20px;
 }
 
 .help{
     color: #8A9EBA;
+    float: right;
+    padding: 20px;
 }

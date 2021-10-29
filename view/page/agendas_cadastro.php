@@ -20,7 +20,7 @@
 
         <div class="grid-item title">
             <a href="#"><span class="material-icons help">help</span></a>
-            <h1 class="header-title">Cadastro de novas agendas</h1>
+            <h1 class="h1-title">Cadastro de novas agendas</h1>
         </div>
 
         <div class="grid-item body">
