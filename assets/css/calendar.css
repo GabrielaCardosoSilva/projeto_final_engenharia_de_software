@@ -1,0 +1,33 @@
+.single-input{
+    position: relative;
+    width: 50%;
+}
+
+label{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    color: #A6A6A6;
+    cursor: text;
+    font-size: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.input{
+    width: 70%;
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px solid #8A9EBA;
+    outline: 0;
+}
+
+.input:focus{
+    border-bottom: 2px solid #8A9EBA;
+}
+
+.input:focus ~ label,
+.input:valid ~ label{
+    transform: translateY(-20px);
+    font-size: 12px;
+    color: #8A9EBA;
+}

@@ -1,3 +1,8 @@
+body{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+
+}
+
 .grid-container{
     display: grid;  
     grid-template-columns: 300px auto;
@@ -14,23 +19,24 @@
 .title{
     grid-area: title;
     border-bottom: 1px solid #8A9EBA;
+    padding: 20px;
+    margin-right: 20px;
 }
 
 .body{
     grid-area: body;
+    padding: 20px;
 }
 
 .h1-title{
     font-weight: normal;
     font-family: 'Lora', serif;
     font-size: 30px;
-    color: #8A9EBA;
-    padding-top: 60px;
-    padding-left: 20px;
+    color: #8A9EBA;   
 }
 
 .help{
     color: #8A9EBA;
     float: right;
-    padding: 20px;
+
 }
