@@ -1,31 +1,49 @@
-body{
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-
-}
-
 .grid-container{
     display: grid;  
-    grid-template-columns: 300px auto;
-    grid-template-rows: 119px auto;
+    grid-template-columns: 300px auto auto;
+    grid-template-rows: 119px 500px 100px;
     grid-template-areas:
-    "nav title"
-    "nav body";
+    "nav title title"
+    "nav bodyl bodyr"
+    "nav footer footer";
 }
 
 .navbar{
     grid-area: nav;
+    display:block;
 }
 
 .title{
     grid-area: title;
+    /* display:block;
     border-bottom: 1px solid #8A9EBA;
     padding: 20px;
-    margin-right: 20px;
+    margin-right: 20px; */
+    background-color: blue;
 }
 
-.body{
-    grid-area: body;
-    padding: 20px;
+.bodyl{
+    grid-area: bodyl;
+    /* display:inline-block; */
+    /* padding: 20px; */
+    /* position: relative; */
+    background-color: rgb(2, 0, 0);
+}
+.bodyr{
+    grid-area: bodyr;
+    /* display:inline-block; */
+    /* padding: 20px; */
+    /* position: relative; */
+    background-color: rgb(184, 32, 32);
+}
+
+.footer{
+    grid-area: footer;
+    background-color: aquamarine;
+}
+
+body{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
 }
 
 .h1-title{
@@ -38,5 +56,4 @@ body{
 .help{
     color: #8A9EBA;
     float: right;
-
 }
