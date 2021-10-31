@@ -1,9 +1,10 @@
 .grid-container{
     display: grid;  
     grid-template-columns: 300px auto auto;
-    grid-template-rows: 119px 500px 100px;
+    grid-template-rows: 119px 150px auto auto;
     grid-template-areas:
     "nav title title"
+    "nav info info"
     "nav bodyl bodyr"
     "nav footer footer";
 }
@@ -15,31 +16,29 @@
 
 .title{
     grid-area: title;
-    /* display:block;
     border-bottom: 1px solid #8A9EBA;
     padding: 20px;
-    margin-right: 20px; */
-    background-color: blue;
+    margin-right: 20px;
+}
+
+.info{
+    grid-area: info;
+    position: relative;
 }
 
 .bodyl{
     grid-area: bodyl;
-    /* display:inline-block; */
-    /* padding: 20px; */
-    /* position: relative; */
-    background-color: rgb(2, 0, 0);
+    position: relative;
 }
+
 .bodyr{
     grid-area: bodyr;
-    /* display:inline-block; */
-    /* padding: 20px; */
-    /* position: relative; */
-    background-color: rgb(184, 32, 32);
+    position: relative;
 }
 
 .footer{
     grid-area: footer;
-    background-color: aquamarine;
+    margin: auto;   
 }
 
 body{
@@ -56,4 +55,14 @@ body{
 .help{
     color: #8A9EBA;
     float: right;
+}
+
+.text-info{
+    font-size: 16px;
+    color: #8A9EBA;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    text-align: center;
 }

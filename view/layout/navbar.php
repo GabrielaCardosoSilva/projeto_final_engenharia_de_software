@@ -10,7 +10,7 @@
     <ul>
         <li><a href="#" class="page calendar">Agendas<span class="material-icons button-calendar">arrow_right</span></a>
             <ul class="subpage subcalendar">
-                <li><a href="#">Cadastrar agendas</a></li>
+                <li><a href="#">Agendar consulta</a></li>
                 <li><a href="#">Consultar agendas</a></li>
                 <li><a href="#">Alterar agendas</a></li>
                 <li><a href="#">Imprimir agendas</a></li>
