@@ -31,7 +31,7 @@
             <p class="text-info">Para agendar novas consultas, preencha os campos abaixo e clique em salvar.</p>
         </div>
         
-        <!-- <form action="" class="form"> -->
+        <form action="" class="form">
             <div class="bodyl"> 
                 <div class="alignl">
                     <div class="single-input">
@@ -87,7 +87,7 @@
                 <button type="submit" class="center">Salvar</button>
                 <button type="reset" class="center">Limpar</button>
             </div>
-        <!-- </form> -->
+        </form>
             
     </div>
 
@@ -95,30 +95,3 @@
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>
 </body>
 </html>
-
-                <!-- <div class="single-input">
-                    <label for="opt_type">Tipo de consulta</label>
-                    <select name="opt_type" id="opt_type">
-                        <option value="return">Retorno</option>
-                        <option value="first">Primeria consulta</option>
-                    </select>
-                </div> -->
-                <!-- <div class="single-input">
-                    <input type="number" name="input_price" class="input" id="price" required>
-                        <label for="price">Valor????</label>
-                    </div> -->
-
-            
-                <!-- <div class="single-input">
-                    <input type="text" name="input_comments" class="input" id="comments">
-                    <label for="comments">Observações</label>
-                </div> -->
-
-
-
-
-
-                <!-- <div class="single-input-search">
-            <input type="search" class="input" id="cpf" required>
-            <label for="cpf">Pesquisa por CPF (apenas números)</label>
-        </div> -->
