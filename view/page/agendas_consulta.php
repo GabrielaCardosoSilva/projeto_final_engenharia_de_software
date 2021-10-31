@@ -5,12 +5,36 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Clinsav - Consultar agendas</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel="stylesheet" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="../../assets/css/navbar.css">
+    <link rel="stylesheet" href="../../assets/css/grid.css">
+    <link rel="stylesheet" href="../../assets/css/agenda_create.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <a href="#">ajuda</a>
+    <div class="grid-container">
+
+    <div class="navbar">
+            <?php include('../layout/navbar.php')?>
+        </div>
+
+        <div class="title">
+            <a href="#">
+                <span class="material-icons help">help</span>
+            </a>
+            <h1 class="h1-title">Consultar agendas</h1>
+        </div>
+
+        <div class="info"></div>
+        <div class="bodyl"></div>
+        <div class="bodyr"></div>
+        <div class="footer"></div>
+
+    </div>
+
+    <!-- <a href="#">ajuda</a>
     
     <h1>Consultar agendas ativas</h1>
     <hr>
@@ -41,7 +65,7 @@
         <p><strong>Paciente:</strong>Nome do paciente</p>
 
         <button type="submit">Salvar</button>
-    </div> 
-
+    </div>  -->
+    <script type="text/javascript" src="../../assets/js/navbar.js"></script>
 </body>
 </html>

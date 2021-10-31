@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Agendamento</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/navbar.css">
@@ -10,7 +11,6 @@
     <link rel="stylesheet" href="../../assets/css/agenda_create.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <title>Agendamento</title>
 </head>
 <body>
 
@@ -60,12 +60,10 @@
                 <div class="alignr">
                     <div class="single-input">
                         <input type="date" name="input_date" class="input" id="date" required>
-                        <!-- <label for="date" class="label">Data</label> -->
                     </div>
 
                     <div class="single-input">
                         <input type="time" name="input_hour" class="input" id="hour" required>
-                        <!-- <label for="hour" class="label">horário</label> -->
                     </div>
 
                     <div class="single-input">
