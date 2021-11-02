@@ -21,7 +21,7 @@
         </div>
 
         <div class="title">
-            <a href="#">
+            <a href="help.php">
                 <span class="material-icons help">help</span>
             </a>
             <h1 class="h1-title">Agendar consultas</h1>
