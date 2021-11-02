@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/navbar.css">
     <link rel="stylesheet" href="../../assets/css/grid.css">
-    <link rel="stylesheet" href="../../assets/css/agenda_create.css">
+    <link rel="stylesheet" href="../../assets/css/create.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
@@ -30,10 +30,10 @@
         <div class="info">
             <p class="text-info">Para agendar novas consultas, preencha os campos abaixo e clique em salvar.</p>
         </div>
-        
-        <form action="" class="form">
-            <div class="bodyl"> 
-                <div class="alignl">
+
+        <div class="body">
+            <form action="" class="form">
+             
                     <div class="single-input">
                         <input type="numbers" name="input_cpf" class="input" id="cpf" required>
                         <label for="specialty" class="label">CPF</label>
@@ -53,11 +53,7 @@
                         <input type="text" name="input_doctor" class="input" id="doctor" required>
                         <label for="doctor" class="label">Médico</label>
                     </div>
-                </div>          
-            </div>
 
-            <div class="bodyr">
-                <div class="alignr">
                     <div class="single-input">
                         <input type="date" name="input_date" class="input" id="date" required>
                     </div>
@@ -77,15 +73,11 @@
                         <input type="radio" name="type" id="return" value="Retorno">
                         <label for="return">Retorno</label>
                     </div>
-                </div>
-            </div>
-            
-            
-            <div class="footer">
+
                 <button type="submit" class="center">Salvar</button>
                 <button type="reset" class="center">Limpar</button>
-            </div>
-        </form>
+            </form>
+        </div>
             
     </div>
 

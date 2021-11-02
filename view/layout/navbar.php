@@ -19,7 +19,7 @@
         </li>
         <li><a href="#" class="page patient">Pacientes<span class="material-icons button-patient">arrow_right</span></a>
             <ul class="subpage subpatient">
-                <li><a href="#" class="subpage">Cadastrar pacientes</a></li>
+                <li><a href="../page/patient_create.php" class="subpage">Cadastrar pacientes</a></li>
                 <li><a href="#">Consultar pacientes</a></li>
                 <li><a href="#">Alterar pacientes</a></li>
                 <li><a href="#">Imprimir pacientes</a></li>

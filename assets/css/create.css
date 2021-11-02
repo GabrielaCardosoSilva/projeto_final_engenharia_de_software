@@ -1,6 +1,6 @@
 .single-input{
     position: relative;
-    width: 100%;
+    width: 80%;
     padding-top: 20px;
 }
 
@@ -37,21 +37,24 @@ label{
     color: #8A9EBA;
 }
 
-.alignl{
-    margin-left: 20%;
-    margin-right: 5%;
-}
-
-.alignr{
-    margin-right: 20%;
-    margin-left: 5%;
-}
-
 button{
     padding: 7px 20px;
     border-radius: 5px;
     border:1px solid #8A9EBA;
     background-color: #8A9EBA;
     color:#fff;
-    margin-top: 100px;
+    margin-top: 40px;
+}
+
+form{
+    padding: 0px 50px 20px 50px;
+}
+
+option{
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px solid #8A9EBA;
+    outline: 0;
+    color:#A6A6A6;
 }

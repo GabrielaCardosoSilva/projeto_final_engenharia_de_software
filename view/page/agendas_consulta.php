@@ -27,10 +27,18 @@
             <h1 class="h1-title">Consultar agendas</h1>
         </div>
 
-        <div class="info"></div>
-        <div class="bodyl"></div>
-        <div class="bodyr"></div>
-        <div class="footer"></div>
+        <div class="info">
+            <p>teste</p>
+        </div>
+        <div class="bodyl">
+            <p>teste</p>
+        </div>
+        <div class="bodyr">
+            <p>teste</p>
+        </div>
+        <div class="footer">
+            <p>teste</p>    
+        </div>
 
     </div>
 

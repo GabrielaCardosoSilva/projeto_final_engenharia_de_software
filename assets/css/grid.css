@@ -1,23 +1,21 @@
 .grid-container{
     display: grid;  
-    grid-template-columns: 300px auto auto;
-    grid-template-rows: 119px 150px auto auto;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 119px 80px auto;
     grid-template-areas:
-    "nav title title"
-    "nav info info"
-    "nav bodyl bodyr"
-    "nav footer footer";
+    "nav title"
+    "nav info"
+    "nav body";
 }
 
 .navbar{
     grid-area: nav;
-    display:block;
 }
 
 .title{
     grid-area: title;
     border-bottom: 1px solid #8A9EBA;
-    padding: 20px;
+    padding: 20px 50px;
     margin-right: 20px;
 }
 
@@ -26,19 +24,9 @@
     position: relative;
 }
 
-.bodyl{
-    grid-area: bodyl;
+.body{
+    grid-area: body;
     position: relative;
-}
-
-.bodyr{
-    grid-area: bodyr;
-    position: relative;
-}
-
-.footer{
-    grid-area: footer;
-    margin: auto;   
 }
 
 body{
@@ -60,9 +48,5 @@ body{
 .text-info{
     font-size: 16px;
     color: #8A9EBA;
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%, -50%);
-    text-align: center;
+    padding: 30px 50px;
 }
