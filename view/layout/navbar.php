@@ -26,15 +26,6 @@
                 <li><a href="#">Excluir pacientes</a></li>
             </ul>
         </li>
-        <li><a href="#" class="page treatment">Atendimentos<span class="material-icons button-treatment">arrow_right</span></a>
-            <ul class="subpage subtreatment">
-                <li><a href="../page/care_create.php">Cadastrar atendimentos</a></li>
-                <li><a href="#">Consultar atendimentos</a></li>
-                <li><a href="#">Alterar atendimentos</a></li>
-                <li><a href="#">Imprimir atendimentos</a></li>
-                <li><a href="#">Excluir atendimentos</a></li>
-            </ul>
-        </li>
         <li><a href="#" class="page doctor">Médicos<span class="material-icons button-doctor">arrow_right</span></a>
             <ul class="subpage subdoctor">
                 <li><a href="../page/doctor_create.php">Cadastrar médicos</a></li>

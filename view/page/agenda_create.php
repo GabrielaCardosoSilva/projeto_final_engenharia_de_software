@@ -74,6 +74,9 @@
                         <label for="return">Retorno</label>
                     </div>
 
+
+                    <!-- inserir rg e comprovante de residência -->
+
                 <button type="submit" class="center">Salvar</button>
                 <button type="reset" class="center">Limpar</button>
             </form>

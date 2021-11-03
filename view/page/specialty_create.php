@@ -49,24 +49,7 @@
         </div>
 
     </div>
-    <!-- <a href="#">ajuda</a>
     
-    
-    <h1>Cadastro de novas agendas</h1>
-    <hr>
-
-        <label for="opt_type">Especialidade - selecione:</label>
-        <select name="opt_type" id="opt_type">
-            <option value="return">Pediatra</option>
-            <option value="first">Cardiologista</option>
-            <option value="first">Ginecologista</option>
-            <option value="first">Endocrinologista</option>
-        </select>
-        <input type="text" name="input_description" placeholder="Descrição">
-   
-        <button type="submit">Salvar</button>
-        <button type="reset">Limpar</button>
-    </form> -->
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>
 </body>
 </html>
