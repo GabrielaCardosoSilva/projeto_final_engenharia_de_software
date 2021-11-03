@@ -56,10 +56,10 @@
 
         <div class="body1">
             <div class="agenda">
-                <span class="date-hour">
+                <div class="date-hour">
                     <p>dd/mm/aaaa</p>
                     <p>00:00</p>
-                </span>
+                </div>
                 
                 <p>Médico: Nome do médico</p>
                 <p>Especialidade: Especialidade X</p>
@@ -86,10 +86,10 @@
 
         <div class="body3">
             <div class="agenda">
-                <span class="date-hour">
+                <div class="date-hour">
                     <p>dd/mm/aaaa</p>
                     <p>00:00</p>
-                </span>
+                </div>
                 
                 <p>Médico: Nome do médico</p>
                 <p>Especialidade: Especialidade X</p>
