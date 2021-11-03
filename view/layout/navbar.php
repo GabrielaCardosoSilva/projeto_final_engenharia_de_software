@@ -11,7 +11,7 @@
         <li><a href="#" class="page calendar">Agendas<span class="material-icons button-calendar">arrow_right</span></a>
             <ul class="subpage subcalendar">
                 <li><a href="../page/agenda_create.php">Agendar consulta</a></li>
-                <li><a href="#">Consultar agendas</a></li>
+                <li><a href="../page/agenda_consult.php">Consultar agendas</a></li>
                 <li><a href="#">Alterar agendas</a></li>
                 <li><a href="#">Imprimir agendas</a></li>
                 <li><a href="#">Excluir agendas</a></li>

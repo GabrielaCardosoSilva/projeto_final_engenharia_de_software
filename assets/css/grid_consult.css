@@ -83,15 +83,15 @@ body{
     outline: 0;
     color:#A6A6A6; 
     position: absolute;
-    right: 15%; 
+    margin-top: 30px;
+    /* right: 15%;  */
 }
 
 #search{
     position: absolute;
-    right: 13%;
     color: #8a9eba;
     font-size: 20px;
-    padding-bottom: 10px;
+    /* padding: 50px; */
 }
 
 #calendar{
@@ -123,4 +123,13 @@ h3{
 
 .bold{
     font-weight: bold;
+}
+
+button{
+    padding: 7px 20px;
+    border-radius: 5px;
+    border:1px solid #8A9EBA;
+    background-color: #8A9EBA;
+    color:#fff;
+    margin-top: 40px;
 }

@@ -67,16 +67,6 @@
                         <label for="number" class="label">Número do consultório</label>
                     </div>
 
-                    <div class="single-input">
-                        <input type="radio" name="type" id="first" value="Primeira consulta">
-                        <label for="first">Primeira consulta</label>
-                        <input type="radio" name="type" id="return" value="Retorno">
-                        <label for="return">Retorno</label>
-                    </div>
-
-
-                    <!-- inserir rg e comprovante de residência -->
-
                 <button type="submit" class="center">Salvar</button>
                 <button type="reset" class="center">Limpar</button>
             </form>
