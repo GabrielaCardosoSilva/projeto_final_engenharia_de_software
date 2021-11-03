@@ -45,6 +45,11 @@
                 </div>
 
                 <div class="single-input">
+                    <input type="numbers" name="input_rg" class="input" id="rg" required>
+                    <label for="rg" class="label">RG</label>
+                </div>
+
+                <div class="single-input">
                     <input type="text" name="input_mother" class="input" id="mother_name" required>
                     <label for="mother_name" class="label">Nome da mãe</label>
                 </div>
@@ -123,6 +128,11 @@
                 </div>
 
                 <div class="single-input">
+                    <input type="file" name="input_home" class="input" id="home" required>
+                    <label for="home" class="label">Comprovante de residência</label>
+                </div>
+
+                <div class="single-input">
                     <input type="email" name="input_email" class="input" id="email" required>
                     <label for="email" class="label">Email</label>
                 </div>
@@ -142,6 +152,7 @@
                     <label for="healthInsurance" class="label">Número do convênio</label>
                 </div>
 
+                <!-- inserir rg e comprovante de residência -->
 
                 <button type="submit" class="center">Salvar</button>
                 <button type="reset" class="center">Limpar</button>

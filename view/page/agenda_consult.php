@@ -61,9 +61,9 @@
                     <p>00:00</p>
                 </div>
                 
-                <p>Médico: Nome do médico</p>
-                <p>Especialidade: Especialidade X</p>
-                <p>Paciente: Nome do paciente</p>
+                <p><span class="bold">Médico:</span> Nome do médico</p>
+                <p><span class="bold">Especialidade:</span> Especialidade X</p>
+                <p><sapn class="bold">Paciente:</span> Nome do paciente</p>
 
                 <button type="submit">Ver mais</button>
             </div>
@@ -76,9 +76,9 @@
                     <p>00:00</p>
                 </div>
                 
-                <p>Médico: Nome do médico</p>
-                <p>Especialidade: Especialidade X</p>
-                <p>Paciente: Nome do paciente</p>
+                <p><span class="bold">Médico:</span> Nome do médico</p>
+                <p><span class="bold">Especialidade:</span> Especialidade X</p>
+                <p><span class="bold">Paciente:</span> Nome do paciente</p>
 
                 <button type="submit">Ver mais</button>
             </div>    
@@ -91,9 +91,9 @@
                     <p>00:00</p>
                 </div>
                 
-                <p>Médico: Nome do médico</p>
-                <p>Especialidade: Especialidade X</p>
-                <p>Paciente: Nome do paciente</p>
+                <p><span class="bold">Médico:</span> Nome do médico</p>
+                <p><span class="bold">Especialidade:</span> Especialidade X</p>
+                <p><span class="bold">Paciente:</span> Nome do paciente</p>
 
                 <button type="submit">Ver mais</button>
             </div>   
