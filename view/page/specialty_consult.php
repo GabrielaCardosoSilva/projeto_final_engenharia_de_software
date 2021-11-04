@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Consultar agendas</title>
+    <title>Consultar especialidades</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/navbar.css">
@@ -23,7 +23,7 @@
             <a href="help.php">
                 <span class="material-icons help">help</span>
             </a>
-            <h1 class="h1-title">Consultar agendas</h1>
+            <h1 class="h1-title">Consultar especialidades</h1>
         </div>
 
         <div class="info">
@@ -33,21 +33,18 @@
             </div>
         </div>
 
+
         <div class="subtitle">
-            <span class="material-icons" id="icon">calendar_today</span>
-            <h3>Todas as agendas:</h3>
+            <span class="material-icons" id="icon">star_outline</span>
+            <h3>Todas as especialidades:</h3>
         </div>
 
         <div class="body1">
             <div class="agenda">
                 <div class="date-hour">
-                    <p>dd/mm/aaaa</p>
-                    <p>00:00</p>
+                    <p>Nome</p>
                 </div>
-                
-                <p><span class="bold">Médico:</span> Nome do médico</p>
-                <p><span class="bold">Especialidade:</span> Especialidade X</p>
-                <p><sapn class="bold">Paciente:</span> Nome do paciente</p>
+                <p>Descrição</p>
 
                 <button type="submit">Ver mais</button>
             </div>
@@ -56,13 +53,9 @@
         <div class="body2">
             <div class="agenda">
                 <div class="date-hour">
-                    <p>dd/mm/aaaa</p>
-                    <p>00:00</p>
+                    <p>Nome</p>
                 </div>
-                
-                <p><span class="bold">Médico:</span> Nome do médico</p>
-                <p><span class="bold">Especialidade:</span> Especialidade X</p>
-                <p><span class="bold">Paciente:</span> Nome do paciente</p>
+                <p>Descrição</p>
 
                 <button type="submit">Ver mais</button>
             </div>    
@@ -71,19 +64,34 @@
         <div class="body3">
             <div class="agenda">
                 <div class="date-hour">
-                    <p>dd/mm/aaaa</p>
-                    <p>00:00</p>
+                    <p>Nome</p>
                 </div>
-                
-                <p><span class="bold">Médico:</span> Nome do médico</p>
-                <p><span class="bold">Especialidade:</span> Especialidade X</p>
-                <p><span class="bold">Paciente:</span> Nome do paciente</p>
+                <p>Descrição</p>
 
                 <button type="submit">Ver mais</button>
             </div>   
         </div>
+
     </div>
 
-    <script type="text/javascript" src="../../assets/js/navbar.js"></script>
+<script type="text/javascript" src="../../assets/js/navbar.js"></script>
+
+    <!-- <a href="#">ajuda</a>
+    
+    <h1>Consultar especialidades</h1>
+    <hr>
+
+
+    <input type="search" name="input_search" id="input_search">
+
+    <h3>(emoji) Todas as agendas</h3>
+
+    <div>
+        <p><strong>Nome:</strong>Nome da especialidade</p>
+        <p><strong>Descrição:</strong>xxxxxx</p>
+
+        <button type="submit">Ver detalhes/button>
+    </div>  -->
+
 </body>
 </html>

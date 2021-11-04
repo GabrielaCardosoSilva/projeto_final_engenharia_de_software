@@ -68,13 +68,12 @@ body{
     font-weight: normal;
 }
 
-.search{
+.div-search{
     padding-left: 50px;
     position: relative;
-}
+    width: 250px;
+    height: 100px;
 
-.lbl_search{
-    margin-right: 20px;
 }
 
 .ipt_search{
@@ -84,17 +83,25 @@ body{
     color:#A6A6A6; 
     position: absolute;
     margin-top: 30px;
-    /* right: 15%;  */
+    padding-bottom: 5px;
+    width: 180px;
+    /* float: left; */
+    
 }
 
-#search{
-    position: absolute;
+#icon-search{
+    /* position: absolute; */
     color: #8a9eba;
     font-size: 20px;
-    /* padding: 50px; */
+    display: inline;
+    
+    /* left: 21%; */
+    margin-top: 26px;
+    float:right;
+    /* background-color: rgb(150, 86, 86); */
 }
 
-#calendar{
+#icon{
     color: #8a9eba;
     padding-left: 50px;
     font-size: 20px;

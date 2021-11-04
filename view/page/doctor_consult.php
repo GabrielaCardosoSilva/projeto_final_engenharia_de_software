@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Consultar agendas</title>
+    <title>Consultar médicos</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/navbar.css">
@@ -23,7 +23,7 @@
             <a href="help.php">
                 <span class="material-icons help">help</span>
             </a>
-            <h1 class="h1-title">Consultar agendas</h1>
+            <h1 class="h1-title">Consultar médicos</h1>
         </div>
 
         <div class="info">
@@ -34,20 +34,20 @@
         </div>
 
         <div class="subtitle">
-            <span class="material-icons" id="icon">calendar_today</span>
-            <h3>Todas as agendas:</h3>
+            <span class="material-icons" id="icon">medication</span>
+            <h3>Todas os médicos:</h3>
         </div>
 
         <div class="body1">
             <div class="agenda">
                 <div class="date-hour">
-                    <p>dd/mm/aaaa</p>
-                    <p>00:00</p>
+                    <p>Nome completo</p>
+                    <p>id 0000</p>
                 </div>
                 
-                <p><span class="bold">Médico:</span> Nome do médico</p>
-                <p><span class="bold">Especialidade:</span> Especialidade X</p>
-                <p><sapn class="bold">Paciente:</span> Nome do paciente</p>
+                <p><span class="bold">CPF:</span> 000.000.000-00</p>
+                <p><span class="bold">Idade:</span> 00</p>
+                <p><span class="bold">Gênero:</span> xxxxx</p>
 
                 <button type="submit">Ver mais</button>
             </div>
@@ -56,28 +56,28 @@
         <div class="body2">
             <div class="agenda">
                 <div class="date-hour">
-                    <p>dd/mm/aaaa</p>
-                    <p>00:00</p>
+                    <p>Nome completo</p>
+                    <p>id 0000</p>
                 </div>
                 
-                <p><span class="bold">Médico:</span> Nome do médico</p>
-                <p><span class="bold">Especialidade:</span> Especialidade X</p>
-                <p><span class="bold">Paciente:</span> Nome do paciente</p>
+                <p><span class="bold">CPF:</span> 000.000.000-00</p>
+                <p><span class="bold">Idade:</span> 00</p>
+                <p><span class="bold">Gênero:</span> xxxxx</p>
 
                 <button type="submit">Ver mais</button>
-            </div>    
+            </div>   
         </div>
 
         <div class="body3">
             <div class="agenda">
                 <div class="date-hour">
-                    <p>dd/mm/aaaa</p>
-                    <p>00:00</p>
+                    <p>Nome completo</p>
+                    <p>id 0000</p>
                 </div>
                 
-                <p><span class="bold">Médico:</span> Nome do médico</p>
-                <p><span class="bold">Especialidade:</span> Especialidade X</p>
-                <p><span class="bold">Paciente:</span> Nome do paciente</p>
+                <p><span class="bold">CPF:</span> 000.000.000-00</p>
+                <p><span class="bold">Idade:</span> 00</p>
+                <p><span class="bold">Gênero:</span> xxxxx</p>
 
                 <button type="submit">Ver mais</button>
             </div>   
@@ -85,5 +85,6 @@
     </div>
 
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>
+
 </body>
 </html>
