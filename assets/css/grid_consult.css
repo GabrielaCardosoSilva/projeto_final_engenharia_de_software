@@ -73,7 +73,6 @@ body{
     position: relative;
     width: 250px;
     height: 100px;
-
 }
 
 .ipt_search{
@@ -84,21 +83,15 @@ body{
     position: absolute;
     margin-top: 30px;
     padding-bottom: 5px;
-    width: 180px;
-    /* float: left; */
-    
+    width: 180px;   
 }
 
 #icon-search{
-    /* position: absolute; */
     color: #8a9eba;
     font-size: 20px;
     display: inline;
-    
-    /* left: 21%; */
     margin-top: 26px;
     float:right;
-    /* background-color: rgb(150, 86, 86); */
 }
 
 #icon{
