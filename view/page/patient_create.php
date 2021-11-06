@@ -7,8 +7,9 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/navbar.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/grid.css">
-    <link rel="stylesheet" href="../../assets/css/create.css">
+    <link rel="stylesheet" href="../../assets/css/style_create.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src='main.js'></script>
@@ -151,8 +152,6 @@
                     <input type="number" name="input_healthInsurance" class="input" id="healthInsurance" required>
                     <label for="healthInsurance" class="label">Número do convênio</label>
                 </div>
-
-                <!-- inserir rg e comprovante de residência -->
 
                 <button type="submit" class="center">Salvar</button>
                 <button type="reset" class="center">Limpar</button>

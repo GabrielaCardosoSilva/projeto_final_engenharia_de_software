@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/navbar.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/grid.css">
-    <link rel="stylesheet" href="../../assets/css/create.css">
+    <link rel="stylesheet" href="../../assets/css/style_create.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
@@ -25,7 +26,6 @@
                 <span class="material-icons help">help</span>
             </a>
             <h1 class="h1-title">Cadastrar médicos</h1>
-            <p>Precisa do número do convênio do médico?</p>
         </div>
 
         <div class="info">
@@ -33,7 +33,7 @@
         </div>
 
         <div class="body">
-        <form action="" class="form">
+            <form action="" class="form">
                 <div class="single-input">
                     <input type="text" name="input_name" class="input" id="name" required>
                     <label for="name" class="label">Nome completo</label>
@@ -128,6 +128,11 @@
                 </div>
 
                 <div class="single-input">
+                    <input type="file" name="input_home" class="input" id="home" required>
+                    <label for="home" class="label">Comprovante de residência</label>
+                </div>
+
+                <div class="single-input">
                     <input type="email" name="input_email" class="input" id="email" required>
                     <label for="email" class="label">Email</label>
                 </div>
@@ -141,12 +146,6 @@
                     <input type="tel" name="input_tel2" class="input" id="tel2" required>
                     <label for="tel2" class="label">Telefone Secundário</label>
                 </div>
-
-                <div class="single-input">
-                    <input type="number" name="input_healthInsurance" class="input" id="healthInsurance" required>
-                    <label for="healthInsurance" class="label">Número do convênio</label>
-                </div>
-
 
                 <button type="submit" class="center">Salvar</button>
                 <button type="reset" class="center">Limpar</button>

@@ -1,0 +1,53 @@
+.preview{
+    font-size: 16px;
+    color: #8A9EBA;
+    padding: 30px;
+    text-align: center;
+}
+
+.p-title, 
+.div-header{
+    text-align: center;
+    color: #8A9EBA;
+}
+
+.p-title{
+    font-family: 'Lora', serif;
+    font-size: 25px;
+}
+
+.div-print{
+    margin: 0 auto;
+    background-color: #F0F3F6;
+    width: 400px;
+    padding: 40px;
+    line-height: 40px;
+    border-radius: 25px;
+}
+
+.div-header{
+    line-height: 20px;
+}
+
+.div-information{
+    margin-top: 50px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.div-button{
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 190px;
+}
+
+button{
+    padding: 7px 20px;
+    border-radius: 5px;
+    border:1px solid #8A9EBA;
+    background-color: #8A9EBA;
+    color:#fff;
+    margin-top: 40px;
+}

@@ -7,6 +7,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/navbar.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/consult.css">
     <link rel="stylesheet" href="../../assets/css/grid_consult.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -34,53 +36,59 @@
         </div>
 
         <div class="subtitle">
-            <span class="material-icons" id="icon">medication</span>
+            <span class="material-icons" id="icon-title">medication</span>
             <h3>Todas os médicos:</h3>
         </div>
 
         <div class="body1">
-            <div class="agenda">
-                <div class="date-hour">
+            <div class="div-contents">
+                <div class="div-header">
                     <p>Nome completo</p>
                     <p>id 0000</p>
                 </div>
                 
-                <p><span class="bold">CPF:</span> 000.000.000-00</p>
-                <p><span class="bold">Idade:</span> 00</p>
-                <p><span class="bold">Gênero:</span> xxxxx</p>
-
-                <button type="submit">Ver mais</button>
+                <div class="div-consult">
+                    <p><span class="bold">CPF:</span> 000.000.000-00</p>
+                    <p><span class="bold">Idade:</span> 00</p>
+                    <p><span class="bold">Gênero:</span> xxxxx</p>
+                </div>
+                
+                <a href="../page/agenda_detail.php" class="button"> Ver mais</a>
             </div>
         </div>
 
         <div class="body2">
-            <div class="agenda">
-                <div class="date-hour">
+        <div class="div-contents">
+                <div class="div-header">
                     <p>Nome completo</p>
                     <p>id 0000</p>
                 </div>
                 
-                <p><span class="bold">CPF:</span> 000.000.000-00</p>
-                <p><span class="bold">Idade:</span> 00</p>
-                <p><span class="bold">Gênero:</span> xxxxx</p>
-
-                <button type="submit">Ver mais</button>
+                <div class="div-consult">
+                    <p><span class="bold">CPF:</span> 000.000.000-00</p>
+                    <p><span class="bold">Idade:</span> 00</p>
+                    <p><span class="bold">Gênero:</span> xxxxx</p>
+                </div>
+                
+                <a href="../page/agenda_detail.php" class="button"> Ver mais</a>
             </div>   
         </div>
 
         <div class="body3">
-            <div class="agenda">
-                <div class="date-hour">
+        <div class="div-contents">
+                <div class="div-header">
                     <p>Nome completo</p>
                     <p>id 0000</p>
                 </div>
                 
-                <p><span class="bold">CPF:</span> 000.000.000-00</p>
-                <p><span class="bold">Idade:</span> 00</p>
-                <p><span class="bold">Gênero:</span> xxxxx</p>
+                <div class="div-consult">
+                    <p><span class="bold">CPF:</span> 000.000.000-00</p>
+                    <p><span class="bold">Idade:</span> 00</p>
+                    <p><span class="bold">Gênero:</span> xxxxx</p>
+                </div>
 
-                <button type="submit">Ver mais</button>
-            </div>   
+                <a href="../page/agenda_detail.php" class="button"> Ver mais</a>
+            </div>  
         </div>
     </div>
 

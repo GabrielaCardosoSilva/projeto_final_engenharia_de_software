@@ -1,0 +1,70 @@
+.div-search{
+    padding-left: 50px;
+    position: relative;
+    width: 250px;
+    height: 100px;
+}
+
+.ipt_search{
+    border: 0;
+    border-bottom: 1px solid #8A9EBA;
+    outline: 0;
+    color:#A6A6A6; 
+    position: absolute;
+    margin-top: 30px;
+    padding-bottom: 5px;
+    width: 180px;   
+}
+
+#icon-search{
+    color: #8a9eba;
+    font-size: 20px;
+    display: inline;
+    margin-top: 26px;
+    float:right;
+}
+
+#icon-title{
+    color: #8a9eba;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+h3{
+    display:inline;
+    font-size: 16px;
+    color: #8A9EBA;
+}
+
+.div-contents{
+    background-color: #F0F3F6;
+    margin: 30px 50px;
+    padding: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 25px;
+}
+
+.div-header{
+    color: #8A9EBA;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.div-consult{
+    margin-bottom: 40px;
+}
+
+.span-bold{
+    font-weight: bold;
+}
+
+.button{
+    padding: 7px 20px;
+    border-radius: 5px;
+    background-color: #8A9EBA;
+    color:#fff;
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+}

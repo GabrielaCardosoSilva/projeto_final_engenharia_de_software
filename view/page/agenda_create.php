@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/navbar.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/grid.css">
-    <link rel="stylesheet" href="../../assets/css/create.css">
+    <link rel="stylesheet" href="../../assets/css/style_create.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
@@ -71,9 +72,8 @@
                 <button type="reset" class="center">Limpar</button>
             </form>
         </div>
-            
-    </div>
 
+    </div>
 
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>
 </body>
