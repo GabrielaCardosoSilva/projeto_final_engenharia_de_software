@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Imprimir agendas</title>
+    <title>Excluir agendas</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/navbar.css">
@@ -25,7 +25,7 @@
             <a href="help.php">
                 <span class="material-icons help">help</span>
             </a>
-            <h1 class="h1-title">Selecionar agendas para impressão</h1>
+            <h1 class="h1-title">Selecionar agendas para exclusão Não existe mais tb shiku shiku vt malvado</h1>
         </div>
 
         <div class="info">
@@ -68,7 +68,7 @@
                     <label for="ipt_check6">Agenda 6</label>
                 </div>
 
-                <button type="submit">Imprimir</button>
+                <button type="submit">Excluir</button>
                 <button type="submit">Voltar</button>
 
             </div>

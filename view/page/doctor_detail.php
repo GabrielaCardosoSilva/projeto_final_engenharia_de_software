@@ -55,9 +55,12 @@
                 <p><span class="bold">Telefone principal: </span>000000000</p>
                 <p><span class="bold">Telefone secundário: </span>00000000000</p>
 
-                <button type="submit">Alterar</button>
-                <button type="submit">Imprimir</button>
-                <button type="submit">Excluir</button>
+                <div class="div-button">
+                    <a href="../page/agenda_alter.php" class="button">Alterar</a>
+                    <a href="../page/agenda_print.php" class="button">Imprimir</a>
+                    <a href="#" class="button">Excluir</a>
+                    <!-- O botão de exclusão deve abrir um pop-up de confirmação e não redirecionar a uma página -->
+                </div>
 
             </div>
         </div>

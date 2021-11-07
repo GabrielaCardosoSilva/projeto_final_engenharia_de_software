@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/navbar.css">
     <link rel="stylesheet" href="../../assets/css/style.css">
-    <link rel="stylesheet" href="../../assets/css/consult.css">
+    <link rel="stylesheet" href="../../assets/css/style_consult.css">
     <link rel="stylesheet" href="../../assets/css/grid_consult.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -53,7 +53,7 @@
                     <p><span class="span-bold">Gênero:</span> xxxxx</p>
                 </div>
 
-                <a href="../page/agenda_detail.php" class="button"> Ver mais</a>
+                <a href="../page/patient_detail.php" class="button"> Ver mais</a>
             </div>
         </div>
 
@@ -70,7 +70,7 @@
                     <p><span class="span-bold">Gênero:</span> xxxxx</p>
                 </div>
 
-                <a href="../page/agenda_detail.php" class="button"> Ver mais</a>
+                <a href="../page/patient_detail.php" class="button"> Ver mais</a>
             </div> 
         </div>
 
@@ -87,7 +87,7 @@
                     <p><span class="span-bold">Gênero:</span> xxxxx</p>
                 </div>
 
-                <a href="../page/agenda_detail.php" class="button"> Ver mais</a>
+                <a href="../page/patient_detail.php" class="button"> Ver mais</a>
             </div>  
         </div>
 

@@ -56,9 +56,12 @@
                 <p><span class="bold">Telefone secundário: </span>00000000000</p>
                 <p><span class="bold">Número do convênio: </span>000000000</p>
 
-                <button type="submit">Alterar</button>
-                <button type="submit">Imprimir</button>
-                <button type="submit">Excluir</button>
+                <div class="div-button">
+                    <a href="../page/patient_alter.php" class="button">Alterar</a>
+                    <a href="../page/patient_print.php" class="button">Imprimir</a>
+                    <a href="#" class="button">Excluir</a>
+                    <!-- O botão de exclusão deve abrir um pop-up de confirmação e não redirecionar a uma página -->
+                </div>
 
             </div>
         </div>

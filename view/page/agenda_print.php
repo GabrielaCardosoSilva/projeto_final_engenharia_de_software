@@ -34,11 +34,11 @@
 
         <div class="body">
 
-            <div class="div-print"> <!-- agenda print -->
+            <div class="div-print"> 
 
-                <p class="p-title">Agenda 001</p> <!-- agenda title -->
+                <p class="p-title">Agenda 001</p>
 
-               <div class="div-header">  <!-- agenda date hour -->
+               <div class="div-header"> 
                     <p>dd/mm/aaaa</p>
                     <p>00:00</p>
                 </div>
@@ -54,7 +54,12 @@
 
             <div class="div-button">
                 <button type="submit">Imprimir</button>
-                <button type="submit">Cancelar</button>
+                <input type="button" value="Voltar" onClick="history.go(-1)" class="ipt-button"> 
+
+                <!-- BOTÕES:
+                IMPRIMIR: fazer ligação com a impressora
+                CANCELAR: Pop-up de confirmação 
+                Precisa de um botão de voltar? (voltar para consultar agendas) -->
             </div>
             
         </div>

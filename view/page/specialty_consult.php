@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/navbar.css">
     <link rel="stylesheet" href="../../assets/css/style.css">
-    <link rel="stylesheet" href="../../assets/css/consult.css">
+    <link rel="stylesheet" href="../../assets/css/style_consult.css">
     <link rel="stylesheet" href="../../assets/css/grid_consult.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -51,7 +51,7 @@
                     <p>Descrição</p>
                 </div>
                 
-                <a href="../page/agenda_detail.php" class="button"> Ver mais</a>
+                <a href="../page/specialty_detail.php" class="button"> Ver mais</a>
             </div>
         </div>
 
@@ -65,7 +65,7 @@
                     <p>Descrição</p>
                 </div>
                 
-                <a href="../page/agenda_detail.php" class="button"> Ver mais</a>
+                <a href="../page/specialty_detail.php" class="button"> Ver mais</a>
             </div>    
         </div>
 
@@ -79,30 +79,13 @@
                     <p>Descrição</p>
                 </div>
                 
-                <a href="../page/agenda_detail.php" class="button"> Ver mais</a>
+                <a href="../page/specialty_detail.php" class="button"> Ver mais</a>
             </div>  
         </div>
 
     </div>
 
 <script type="text/javascript" src="../../assets/js/navbar.js"></script>
-
-    <!-- <a href="#">ajuda</a>
-    
-    <h1>Consultar especialidades</h1>
-    <hr>
-
-
-    <input type="search" name="input_search" id="input_search">
-
-    <h3>(emoji) Todas as agendas</h3>
-
-    <div>
-        <p><strong>Nome:</strong>Nome da especialidade</p>
-        <p><strong>Descrição:</strong>xxxxxx</p>
-
-        <button type="submit">Ver detalhes/button>
-    </div>  -->
 
 </body>
 </html>

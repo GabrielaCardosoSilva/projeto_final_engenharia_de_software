@@ -61,7 +61,7 @@
 
             <div class="div-button">
                 <button type="submit">Imprimir</button>
-                <button type="submit">Cancelar</button>
+                <input type="button" value="Voltar" onClick="history.go(-1)" class="ipt-button"> 
             </div>
             
         </div>
