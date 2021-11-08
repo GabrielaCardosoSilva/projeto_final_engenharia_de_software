@@ -34,17 +34,15 @@
         <div class="body">
             <form action="" class="form">
                 <div class="single-input">
-                    <input type="text" name="input_specialty" class="input" id="specialty" required>
-                    <label for="specialty" class="label">Especialidade</label>
+                    <input type="text" name="input_specialty" class="input" id="specialty" placeholder="Nome da especialidade" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="text" name="input_description" class="input" id="description" required>
-                    <label for="description" class="label">Descrição</label>
+                    <input type="text" name="input_description" class="input" id="description" placeholder="Descrição" required>
                 </div>
             
 
-                <button type="submit" class="center">Salvar</button>
+                <button type="submit" class="center" onclick="test()" >Salvar</button>
                 <button type="reset" class="center">Limpar</button>
             </form>
         </div>
@@ -52,5 +50,6 @@
     </div>
     
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>
+    <script type="text/javascript" src="../../assets/js/teste.js"></script>
 </body>
 </html>

@@ -36,23 +36,19 @@
             <form action="" class="form">
 
             <div class="single-input">
-                        <input type="numbers" name="input_cpf" class="input" id="cpf" required>
-                        <label for="specialty" class="label">CPF</label>
+                        <input type="numbers" name="input_cpf" class="input" id="cpf" placeholder="CPF" required>
                     </div>
 
                     <div class="single-input">
-                        <input type="text" name="input_name" class="input" id="name" required>
-                        <label for="cpf" class="label">Nome completo</label>
+                        <input type="text" name="input_name" class="input" id="name" placeholder="Nome completo" required>
                     </div>
 
                     <div class="single-input">
-                        <input type="text" name="input_specialty" class="input" id="specialty" required>
-                        <label for="specialty" class="label">Especialidade</label>
+                        <input type="text" name="input_specialty" class="input" id="specialty" placeholder="Especialidade" required>
                     </div>
 
                     <div class="single-input">
-                        <input type="text" name="input_doctor" class="input" id="doctor" required>
-                        <label for="doctor" class="label">Médico</label>
+                        <input type="text" name="input_doctor" class="input" id="doctor" placeholder="Médico" required>
                     </div>
 
                     <div class="single-input">
@@ -64,8 +60,7 @@
                     </div>
 
                     <div class="single-input">
-                        <input type="number" name="input_number" class="input" id="number" required>
-                        <label for="number" class="label">Número do consultório</label>
+                        <input type="number" name="input_number" class="input" id="number"  required>
                     </div>
              
                     <!-- <div class="single-input">
@@ -75,7 +70,7 @@
 
                     <div class="single-input">
                         <input type="text" name="input_name" class="input" id="name" required>
-                        <label for="cpf" class="label">Nome completo</label>
+                        <label for="name" class="label">Nome completo</label>
                     </div>
 
                     <div class="single-input">
