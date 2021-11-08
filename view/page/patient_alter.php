@@ -33,13 +33,15 @@
         <div class="body">
             <form action="" class="form">
                 <div class="single-input">
-                    <input type="text" name="input_name" class="input" id="name" required>
-                    <label for="name" class="label">Nome completo</label>
+                    <input type="text" name="input_name" class="input" id="name" placeholder="Nome completo" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="number" name="input_cpf" class="input" id="cpf" required>
-                    <label for="cpf" class="label">CPF</label>
+                    <input type="number" name="input_cpf" class="input" id="cpf" placeholder="CPF" required>
+                </div>
+
+                <div class="single-input">
+                    <input type="number" name="input_rg" class="input" id="rg" placeholder="RG" required>
                 </div>
 
                 <div class="single-input">
@@ -54,81 +56,89 @@
                 </div>
 
                 <div class="single-input">
-                    <input type="text" name="input_motherName" class="input" id="motherName" required>
-                    <label for="motherName" class="label">Nome da mãe</label>
+                    <input type="text" name="input_motherName" class="input" id="motherName" placeholder="Nome da mãe" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="text" name="input_fatherName" class="input" id="fatherName" required>
-                    <label for="fatherName" class="label">Nome do pai</label>
+                    <input type="text" name="input_fatherName" class="input" id="fatherName" placeholder="Nome do pai" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="text" name="input_uf" class="input" id="uf" required>
-                    <label for="uf" class="label">Estado</label>
-                </div>
-
-                <div class="single-input">
-                    <input type="number" name="input_cep" class="input" id="cep" required>
-                    <label for="cep" class="label">CEP (apenas números)</label>
-                </div>
-
-                <div class="single-input">
-                    <input type="text" name="input_city" class="input" id="city" required>
-                    <label for="city" class="label">Cidade</label>
-                </div>
-
-                <div class="single-input">
-                    <input type="text" name="input_beighborhood" class="input" id="neighborhood" required>
-                    <label for="neighborhood" class="label">Bairro</label>
-                </div>
-
-                <div class="single-input">
-                    <label for="city">Logradouro: </label>
-                    <select name="opt_gender" id="opt_type">
-                        <option value="select">selecione</option>
-                        <option value="m">Avenida</option>
-                        <option value="t">Condimínio</option>
-                        <option value="t">Conjunto</option>
-                        <option value="f">Rua</option>
-                        <option value="t">Travessa</option>
-                        <option value="t">Via</option>
-                        <option value="t">Viela</option>
+                    <label for="opt_uf">UF:</label>
+                    <select name="opt_uf" id="opt_uf">
+                        <option value="select">Selecione:</option>
+                        <option value="AC">AC - Acre</option>
+                        <option value="AL">AL - Alagoas</option>
+                        <option value="AP">AP - Amapá</option>
+                        <option value="AM">AM - Amazonas</option>
+                        <option value="BA">BA - Bahia</option>
+                        <option value="CE">CE - Ceará</option>
+                        <option value="DF">DF - Distrito Federal</option>
+                        <option value="ES">ES - Espírito Santo</option>
+                        <option value="GO">GO - Goiás</option>
+                        <option value="MA">MA - Maranhão</option>
+                        <option value="MT">MT - Mato Grosso</option>
+                        <option value="MS">MS - Mato Grosso do Sul</option>
+                        <option value="MG">MG - Minas Gerais</option>
+                        <option value="PA">PA - Pará</option>
+                        <option value="PB">PB - Paraíba</option>
+                        <option value="PR">PR - Paraná</option>
+                        <option value="PE">PE - Pernambuco</option>
+                        <option value="PI">PI - Piauí</option>
+                        <option value="RJ">RJ - Rio de Janeiro</option>
+                        <option value="RN">RN - Rio Grande do Norte</option>
+                        <option value="RS">RS - Rio Grande do Sul</option>
+                        <option value="RO">RO - Rondônia</option>
+                        <option value="RR">RR - Roraima</option>
+                        <option value="SC">SC - Santa Catarina</option>
+                        <option value="SP">SP - São Paulo</option>
+                        <option value="SE">SE - Sergipe</option>
+                        <option value="TO">TO - Tocantins</option>
                     </select>
                 </div>
 
                 <div class="single-input">
-                    <input type="text" name="input_street" class="input" id="street" required>
-                    <label for="street" class="label">Nome da rua</label>
+                    <input type="number" name="input_cep" class="input" id="cep" placeholder="CEP" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="number" name="input_houseNumber" class="input" id="houseNumber" required>
-                    <label for="houseNumber" class="label">Número da casa</label>
+                    <input type="text" name="input_city" class="input" id="city" placeholder="Cidade" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="date" name="input_date" class="input" id="date" required>
+                    <input type="text" name="input_beighborhood" class="input" id="neighborhood" placeholder="Bairro" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="email" name="input_email" class="input" id="email" required>
-                    <label for="email" class="label">Email</label>
+                    <input type="text" name="input_address" class="input" id="address" placeholder="Logradouro" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="tel" name="input_tel1" class="input" id="tel1" required>
-                    <label for="tel1" class="label">Telefone principal</label>
+                    <input type="text" name="input_street" class="input" id="street" placeholder="Nome da rua" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="tel" name="input_tel2" class="input" id="tel2" required>
-                    <label for="tel2" class="label">Telefone secundário</label>
+                    <input type="number" name="input_houseNumber" class="input" id="houseNumber" placeholder="Número da casa" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="number" name="input_healtyInsurance" class="input" id="healtyInsurance" required>
-                    <label for="healtyInsurance" class="label">Número do convênio</label>
+                    <input type="date" name="input_date" class="input" id="date" placeholder="Data de nascimento" required>
+                </div>
+
+                <div class="single-input">
+                    <input type="email" name="input_email" class="input" id="email" placeholder="Email" required>
+                </div>
+
+                <div class="single-input">
+                    <input type="tel" name="input_tel1" class="input" id="tel1" placeholder="telefone principal" required>
+                </div>
+
+                <div class="single-input">
+                    <input type="tel" name="input_tel2" class="input" id="tel2" placeholder="Telefone secundário" required>
+                </div>
+
+                <div class="single-input">
+                    <input type="number" name="input_healtyInsurance" class="input" id="healtyInsurance" placeholder="Número do convênio" required>
                 </div>
 
                 <button type="submit">Salvar</button>

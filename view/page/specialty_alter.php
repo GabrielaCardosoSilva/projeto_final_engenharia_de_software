@@ -33,13 +33,11 @@
         <div class="body">
             <form action="" class="form">
                 <div class="single-input">
-                    <input type="text" name="input_specialty" class="input" id="specilaty" required>
-                    <label for="specialty" class="label">Especialidade</label>
+                    <input type="text" name="input_specialty" class="input" id="specilaty" placeholder="Nome da especialidade" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="text" name="input_description" class="input" id="description" required>
-                    <label for="description" class="label">Descrição</label>
+                    <input type="text" name="input_description" class="input" id="description" placeholder="Descrição" required>
                 </div>
                 
                 <button type="submit">Alterar</button>
