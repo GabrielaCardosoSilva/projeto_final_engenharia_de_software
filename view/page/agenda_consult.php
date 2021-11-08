@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/navbar.css">
     <link rel="stylesheet" href="../../assets/css/style.css">
-    <link rel="stylesheet" href="../../assets/css/consult.css">
-    <link rel="stylesheet" href="../../assets/css/grid_consult.css">
+    <link rel="stylesheet" href="../../assets/css/style_consult.css">
+    <!-- <link rel="stylesheet" href="../../assets/css/style_consult.css"> -->
+    <link rel="stylesheet" href="../../assets/css/grid.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
@@ -35,12 +36,31 @@
             </div>
         </div>
 
-        <div class="subtitle">
-            <span class="material-icons" id="icon-title">calendar_today</span>
-            <h3>Todas as agendas:</h3>
+        <div class="body">
+            
+            <div class="div-header">
+                <p>dd/mm/aaaa</p>
+                <p>00:00</p>
+            </div>
+
+            <div class="div-contents">        
+
+                <p><span class="bold">Identificação da consulta: </span>001</p>
+                <p><span class="bold">Médico: </span>Nome do médico</p>
+                <p><span class="bold">Especialidade: </span>Nome da especialidade</p>
+                <p><span class="bold">Paciente: </span>Nome do paciente</p>
+
+                <div class="div-button">
+                    <a href="../page/agenda_alter.php" class="button">Alterar</a>
+                    <a href="../page/agenda_print.php" class="button">Imprimir</a>
+                    <a href="#" class="button">Excluir</a>
+                    <!-- O botão de exclusão deve abrir um pop-up de confirmação e não redirecionar a uma página -->
+                </div>
+
+            </div>
         </div>
 
-        <div class="body1">
+        <!-- <div class="body1">
             <div class="div-contents">
                 <div class="div-header">
                     <p>dd/mm/aaaa</p>
@@ -89,7 +109,8 @@
                 
                 <a href="../page/agenda_detail.php" class="button"> Ver mais</a>
             </div>   
-        </div>
+        </div> -->
+
     </div>
 
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>

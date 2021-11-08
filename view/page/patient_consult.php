@@ -7,9 +7,9 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/navbar.css">
+    <link rel="stylesheet" href="../../assets/css/grid.css">
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/style_consult.css">
-    <link rel="stylesheet" href="../../assets/css/grid_consult.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
@@ -35,60 +35,41 @@
             </div>
         </div>
 
-        <div class="subtitle">
-            <span class="material-icons" id="icon-title">person_outline</span>
-            <h3>Todas os pacientes:</h3>
-        </div>
-
-        <div class="body1">
-            <div class="div-contents">
-                <div class="div-header">
-                    <p>Nome completo</p>
-                    <p>id 0000</p>
-                </div>
-                
-                <div class="div-consult">
-                    <p><span class="span-bold">CPF:</span> 000.000.000-00</p>
-                    <p><span class="span-bold">Idade:</span> 00</p>
-                    <p><span class="span-bold">Gênero:</span> xxxxx</p>
-                </div>
-
-                <a href="../page/patient_detail.php" class="button"> Ver mais</a>
+        <div class="body">
+            <div class="div-header">
+                <p>Nome do paciente</p>
+                <p>Número de identificação: 000</p>
             </div>
-        </div>
 
-        <div class="body2">
-            <div class="div-contents">
-                <div class="div-header">
-                    <p>Nome completo</p>
-                    <p>id 0000</p>
-                </div>
+            <div class="div-contents"> 
                 
-                <div class="div-consult">
-                    <p><span class="span-bold">CPF:</span> 000.000.000-00</p>
-                    <p><span class="span-bold">Idade:</span> 00</p>
-                    <p><span class="span-bold">Gênero:</span> xxxxx</p>
+                <p><span class="bold">CPF: </span>000.000.000-00</p>
+                <p><span class="bold">RG: </span>000.000.000-0</p>
+                <p><span class="bold">Gênero: </span>xxxxx</p>
+                <p><span class="bold">Mãe: </span>Nome da mãe</p>
+                <p><span class="bold">Pai: </span>Nome do pai</p>
+                <p><span class="bold">Data de nascimento: </span>dd/mm/aaaa</p>
+                <p><span class="bold">UF: </span>XX</p>
+                <p><span class="bold">CEP: </span>00000-000</p>
+                <p><span class="bold">Cidade: </span>xxxxxxxxxxx</p>
+                <p><span class="bold">Bairro: </span>xxxxxxxxxxx</p>
+                <p><span class="bold">Logradouro: </span>xxxxxxxxxxx</p>
+                <p><span class="bold">Rua: </span>xxxxxxxxxxx</p>
+                <p><span class="bold">Nº da casa: </span>xxx</p>
+                <p><span class="bold">Email: </span>example@email.com</p>
+                <p><span class="bold">Telefone principal: </span>000000000</p>
+                <p><span class="bold">Telefone secundário: </span>00000000000</p>
+                <p><span class="bold">Número do convênio: </span>000000000</p>
+
+                <div class="div-button">
+                    <a href="../page/patient_alter.php" class="button">Alterar</a>
+                    <a href="../page/patient_print.php" class="button">Imprimir</a>
+                    <a href="#" class="button">Excluir</a>
+                    <!-- O botão de exclusão deve abrir um pop-up de confirmação e não redirecionar a uma página -->
                 </div>
 
-                <a href="../page/patient_detail.php" class="button"> Ver mais</a>
-            </div> 
-        </div>
+            </div>
 
-        <div class="body3">
-            <div class="div-contents">
-                <div class="div-header">
-                    <p>Nome completo</p>
-                    <p>id 0000</p>
-                </div>
-                
-                <div class="div-consult">
-                    <p><span class="span-bold">CPF:</span> 000.000.000-00</p>
-                    <p><span class="span-bold">Idade:</span> 00</p>
-                    <p><span class="span-bold">Gênero:</span> xxxxx</p>
-                </div>
-
-                <a href="../page/patient_detail.php" class="button"> Ver mais</a>
-            </div>  
         </div>
 
     </div>

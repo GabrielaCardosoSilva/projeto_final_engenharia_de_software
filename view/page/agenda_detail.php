@@ -7,9 +7,9 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/navbar.css">
-    <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/grid.css">
-    <link rel="stylesheet" href="../../assets/css/style_delete_select.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/style_consult.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
@@ -29,13 +29,18 @@
         </div>
 
         <div class="info">
-            <div class="div-header">
-                <p>dd/mm/aaaa</p>
-                <p>00:00</p>
+            <div class="div-search">
+                <input type="search" name="input_search" id="input_search" class="ipt_search" placeholder="Buscar">
+                <span class="material-icons" id="icon-search">search</span>
             </div>
         </div>
 
         <div class="body">
+            <div class="div-header">
+                <p>dd/mm/aaaa</p>
+                <p>00:00</p>
+            </div>
+
             <div class="div-contents">        
 
                 <p><span class="bold">Identificação da consulta: </span>001</p>

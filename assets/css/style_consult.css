@@ -30,27 +30,23 @@
     font-size: 20px;
 }
 
-h3{
-    display:inline;
-    font-size: 16px;
-    color: #8A9EBA;
-}
 
 .div-contents{
-    background-color: #F0F3F6;
-    margin: 30px 50px;
-    padding: 20px;
-    font-size: 15px;
-    line-height: 20px;
-    border-radius: 25px;
+    padding-left: 50px;
+}
+
+.div-check{
+    display: block;
+    padding-top: 10px;
 }
 
 .div-header{
     color: #8A9EBA;
     font-weight: bold;
-    margin-bottom: 20px;
+    border-radius: 25px;
+    padding: 20px 50px;
 }
 
-.span-bold{
+.bold{
     font-weight: bold;
 }
