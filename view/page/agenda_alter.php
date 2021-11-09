@@ -61,12 +61,13 @@
                     <input type="number" name="input_number" class="input" id="number" placeholder="Número do consultório" required>
                 </div>
 
-                <button type="submit">Alterar</button>
+                <button type="submit" onclick="getInfo()">Alterar</button>
                 <button type="submit">Cancelar</button>
             </form> 
         </div>
     </div>
 
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>
+    <script type="text/javascript" src="../../assets/js/get_info.js"></script>
 </body>
 </html>

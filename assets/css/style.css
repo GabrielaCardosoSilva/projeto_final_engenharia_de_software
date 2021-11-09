@@ -38,6 +38,7 @@ body{
     display: inline;
     margin-top: 26px;
     float:right;
+    cursor: pointer;
 }
 
 /* delete_select */

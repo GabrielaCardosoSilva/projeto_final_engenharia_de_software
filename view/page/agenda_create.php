@@ -63,7 +63,7 @@
                         <input type="number" name="input_number" class="input" id="number" placeholder="Número do consultório">
                     </div>
 
-                <button type="submit" class="center" onclick="createAgenda()">Salvar</button>
+                <button type="button" class="center" onclick="createAgenda()">Salvar</button>
                 <button type="reset" class="center">Limpar</button>
             </form>
         </div>
@@ -71,5 +71,6 @@
     </div>
 
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>
+    <script type="text/javascript" src="../../assets/js/info_post.js"></script>
 </body>
 </html>
