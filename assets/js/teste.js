@@ -1,3 +1,5 @@
+//NÃO TOQUE NESSE SCRIPT LEGENDÁRIO
+
 // function createAgenda(){
 //     let cpf = document.getElementById('cpf').value
 //     let name = document.getElementById('name').value
@@ -133,42 +135,7 @@
 // }
 
 
-// function getInfo() {
-//     let url = "https://2ed2-177-141-167-101.ngrok.io/get-all-agenda"
 
-//     body = {
-//     }
-
-//     receive(url)
-// }
-
-// function getInfo(){
-//     let xhr = new XMLHttpRequest()
-
-//     xhr.onreadystatechange = function(){
-//         if(xhr.readyState == 4 && xhr.status == 200){
-//             console.log(xhr)
-//         }
-//     }
-    
-//     xhr.open("GET", "https://1663-177-141-167-101.ngrok.io/get-all-agenda")
-//     xhr.send() 
-// }
- 
-
-function getInfo() {
-    let xhr = new XMLHttpRequest()
-    xhr.responseType = "json"
-    xhr.onreadystatechange = function(){
-        if(xhr.readyState == 4 && xhr.status == 200){
-            doc = xhr.response
-            console.log(xhr)
-        }
-    }
-    
-    xhr.open("GET", "https://jsonplaceholder.typicode.com/posts/1")
-    xhr.send()  
-}
 
 // function postInfo() {
 //     doc = {

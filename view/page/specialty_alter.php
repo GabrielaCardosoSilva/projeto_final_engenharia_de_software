@@ -40,12 +40,13 @@
                     <input type="text" name="input_description" class="input" id="description" placeholder="Descrição" required>
                 </div>
                 
-                <button type="submit">Alterar</button>
-                <button type="submit">Excluir</button> 
+                <button type="submit" onclick="createSpecialty()">Alterar</button>
+                <input type="button" value="Voltar" onClick="history.go(-1)" class="ipt-button"> 
             </form>    
         </div>
     </div>
 
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>
+    <script type="text/javascript" src="../../assets/js/info_post.js"></script>
 </body>
 </html>

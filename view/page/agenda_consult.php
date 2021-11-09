@@ -32,9 +32,7 @@
         <div class="info">
             <div class="div-search">
                 <input type="search" name="input_search" id="input_search" class="ipt_search" placeholder="Buscar">
-                <!-- <button class="aaa"> -->
-                    <span class="material-icons" id="icon-search" onclick="getInfo()">search</span>
-                <!-- </button> -->
+                <span class="material-icons" id="icon-search" onclick="getInfo()">search</span>
             </div>
         </div>
 
@@ -116,6 +114,6 @@
     </div>
 
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>
-    <script type="text/javascript" src="../../assets/js/teste.js"></script>
+    <script type="text/javascript" src="../../assets/js/info_get.js"></script>
 </body>
 </html>

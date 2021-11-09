@@ -62,12 +62,12 @@
                 </div>
 
                 <button type="submit" onclick="getInfo()">Alterar</button>
-                <button type="submit">Cancelar</button>
+                <input type="button" value="Voltar" onClick="history.go(-1)" class="ipt-button">
             </form> 
         </div>
     </div>
 
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>
-    <script type="text/javascript" src="../../assets/js/get_info.js"></script>
+    <script type="text/javascript" src="../../assets/js/info_get.js"></script>
 </body>
 </html>

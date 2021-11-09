@@ -142,6 +142,6 @@
 
     </div>
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>
-
+    <script type="text/javascript" src="../../assets/js/info_post.js"></script>
 </body>
 </html>

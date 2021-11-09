@@ -141,12 +141,13 @@
                     <input type="number" name="input_healtyInsurance" class="input" id="healtyInsurance" placeholder="Número do convênio" required>
                 </div>
 
-                <button type="submit">Salvar</button>
-                <button type="reset">Cancelar</button>
+                <button type="submit" onclick="createDoctor()">Salvar</button>
+                <input type="button" value="Voltar" onClick="history.go(-1)" class="ipt-button"> 
             </form>
         </div>
     </div>
 
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>
+    <script type="text/javascript" src="../../assets/js/info_post.js"></script>
 </body>
 </html>
