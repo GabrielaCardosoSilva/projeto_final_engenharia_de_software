@@ -60,43 +60,10 @@
                     </div>
 
                     <div class="single-input">
-                        <input type="number" name="input_number" class="input" id="number"  required>
-                    </div>
-             
-                    <!-- <div class="single-input">
-                        <input type="numbers" name="input_cpf" class="input" id="cpf" required>
-                        <label for="specialty" class="label">CPF</label>
+                        <input type="number" name="input_number" class="input" id="number" placeholder="Número do consultório">
                     </div>
 
-                    <div class="single-input">
-                        <input type="text" name="input_name" class="input" id="name" required>
-                        <label for="name" class="label">Nome completo</label>
-                    </div>
-
-                    <div class="single-input">
-                        <input type="text" name="input_specialty" class="input" id="specialty" required>
-                        <label for="specialty" class="label">Especialidade</label>
-                    </div>
-
-                    <div class="single-input">
-                        <input type="text" name="input_doctor" class="input" id="doctor" required>
-                        <label for="doctor" class="label">Médico</label>
-                    </div>
-
-                    <div class="single-input">
-                        <input type="date" name="input_date" class="input" id="date" required>
-                    </div>
-
-                    <div class="single-input">
-                        <input type="time" name="input_hour" class="input" id="hour" required>
-                    </div>
-
-                    <div class="single-input">
-                        <input type="number" name="input_number" class="input" id="number" required>
-                        <label for="number" class="label">Número do consultório</label>
-                    </div> -->
-
-                <button type="submit" class="center">Salvar</button>
+                <button type="submit" class="center" onclick="createAgenda()">Salvar</button>
                 <button type="reset" class="center">Limpar</button>
             </form>
         </div>

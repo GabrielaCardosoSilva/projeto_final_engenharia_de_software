@@ -44,15 +44,15 @@
                 </div>
 
                 <div class="single-input">
-                    <input type="numbers" name="input_rg" class="input" id="rg" placeholder="RG" required>
+                    <input type="numbers" name="input_rg" class="input" id="rg" placeholder="RG">
                 </div>
 
                 <div class="single-input">
-                    <input type="text" name="input_mother" class="input" id="mother_name" placeholder="Nome da mãe" required>
+                    <input type="text" name="input_mother" class="input" id="mother_name" placeholder="Nome da mãe">
                 </div>
 
                 <div class="single-input">
-                    <input type="text" name="input_father" class="input" id="father_name" placeholder="Nome do pai" required>
+                    <input type="text" name="input_father" class="input" id="father_name" placeholder="Nome do pai">
                 </div>
 
                 <div class="single-input">
@@ -124,12 +124,7 @@
                 </div>
 
                 <div class="single-input">
-                    <input type="file" name="input_home" class="input" id="home" required>
-                    <label for="home" class="label">Comprovante de residência, vai ter?</label>
-                </div>
-
-                <div class="single-input">
-                    <input type="email" name="input_email" class="input" id="email" placeholder="Email" required>
+                    <input type="email" name="input_email" class="input" id="email" placeholder="Email">
 
                 </div>
 
@@ -138,14 +133,14 @@
                 </div>
 
                 <div class="single-input">
-                    <input type="tel" name="input_tel2" class="input" id="tel2" placeholder="Telefone secundário" required>
+                    <input type="tel" name="input_tel2" class="input" id="tel2" placeholder="Telefone secundário">
                 </div>
 
                 <div class="single-input">
-                    <input type="number" name="input_healthInsurance" class="input" id="healthInsurance" placeholder="Número do convênio" required>
+                    <input type="number" name="input_healthInsurance" class="input" id="healthInsurance" placeholder="Número do convênio">
                 </div>
 
-                <button type="submit" class="center">Salvar</button>
+                <button type="submit" class="center" onclick="createPatient()">Salvar</button>
                 <button type="reset" class="center">Limpar</button>
             </form>
         </div>

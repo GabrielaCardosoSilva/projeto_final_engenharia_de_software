@@ -32,19 +32,21 @@
         </div>
 
         <div class="body">
-            <form action="" class="form">
+            <form action="" method="post" class="form">
                 <div class="single-input">
                     <input type="text" name="input_specialty" class="input" id="specialty" placeholder="Nome da especialidade" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="text" name="input_description" class="input" id="description" placeholder="Descrição" required>
+                    <input type="text" name="input_description" class="input" id="description" placeholder="Descrição">
                 </div>
             
 
-                <button type="submit" class="center" onclick="test()" >Salvar</button>
+                <button type="button" class="center" onclick="createSpecialty()" >Salvar</button>
                 <button type="reset" class="center">Limpar</button>
             </form>
+
+            <p class="a" id="a"></p>
         </div>
 
     </div>
