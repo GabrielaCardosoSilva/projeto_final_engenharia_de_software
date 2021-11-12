@@ -27,37 +27,44 @@
                 <span class="material-icons help">help</span>
             </a>
             <h1 class="h1-title">Cadastrar pacientes</h1>
+            <p class="p-title">Para cadastrar novos pacientes, preencha os campos abaixo e clique em salvar.</p>
         </div>
 
         <div class="info">
-            <p class="text-info">Para cadastrar novos pacientes, preencha os campos abaixo e clique em salvar.</p>
+            <p class="text-info">Os campos marcados com um * são obrigatórios.</p>
         </div>
 
         <div class="body">
             <form action="" class="form" method="POST">
+
                 <div class="single-input">
-                    <input type="text" name="input_name" class="input" id="name" placeholder="Nome completo" required>
+                    <label for="name">* Nome completo</label>
+                    <input type="text" name="input_name" class="input" id="name" required>
                 </div>
                 
                 <div class="single-input">
-                    <input type="numbers" name="input_cpf" class="input" id="cpf" placeholder="CPF" required>
+                    <label for="cpf">* CPF</label>
+                    <input type="numbers" name="input_cpf" class="input" id="cpf" placeholder="Apenas números" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="numbers" name="input_rg" class="input" id="rg" placeholder="RG">
+                    <label for="rg">RG</label>
+                    <input type="numbers" name="input_rg" class="input" id="rg">
                 </div>
 
                 <div class="single-input">
-                    <input type="text" name="input_mother" class="input" id="mother_name" placeholder="Nome da mãe">
+                    <label for="mother_name">Nome da mãe</label>
+                    <input type="text" name="input_mother" class="input" id="mother_name" placeholder=" ">
                 </div>
 
                 <div class="single-input">
-                    <input type="text" name="input_father" class="input" id="father_name" placeholder="Nome do pai">
+                    <label for="father_name">* Nome do Pai</label>
+                    <input type="text" name="input_father" class="input" id="father_name">
                 </div>
 
                 <div class="single-input">
                     <select name="opt_gender" id="opt_type">
-                        <option value="select">Gênero - selecione:</option>
+                        <option value="" disable selected>Gênero - selecione:</option>
                         <option value="f">Feminino (cisgênero)</option>
                         <option value="m">Masculino (cisgênero)</option>
                         <option value="t">Transgênero</option>
@@ -67,12 +74,12 @@
                 
                 <div class="single-input">
                     <label for="date" class="date">Data de Nascimento</label>
-                    <input type="date" name="input_date" class="input" id="date" placeholder="Data de nascimeneto" required>  
+                    <input type="date" name="input_date" class="input" id="date" required>  
                 </div>
 
                 <div class="single-input">
                     <select name="opt_uf" id="opt_uf">
-                        <option value="select">UF - selecione:</option>
+                        <option value="" disable selected>UF - selecione:</option>
                         <option value="AC">AC - Acre</option>
                         <option value="AL">AL - Alagoas</option>
                         <option value="AP">AP - Amapá</option>
@@ -104,40 +111,49 @@
                 </div>
 
                 <div class="single-input">
-                    <input type="number" name="input_cep" class="input" id="cep" placeholder="CEP (apenas números)" required>
+                    <label for="cep">* CEP</label>
+                    <input type="number" name="input_cep" class="input" id="cep" placeholder="Apenas números" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="text" name="input_city" class="input" id="city" placeholder="Cidade" required>
+                    <label for="city">* Cidade</label>
+                    <input type="text" name="input_city" class="input" id="city" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="text" name="input_neighborhood" class="input" id="neighborhood" placeholder="Bairro" required>
+                    <label for="neighborhood">* Bairro</label>
+                    <input type="text" name="input_neighborhood" class="input" id="neighborhood" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="text" name="input_address" class="input" id="address" placeholder="Logradouro" required>
+                    <label for="address">* Logradouro</label>
+                    <input type="text" name="input_address" class="input" id="address" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="number" name="input_number" class="input" id="number" placeholder="Número da casa" required>
+                    <label for="number">* Número da casa</label>
+                    <input type="number" name="input_number" class="input" id="number" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="email" name="input_email" class="input" id="email" placeholder="Email">
+                    <label for="email">Email</label>
+                    <input type="email" name="input_email" class="input" id="email" placeholder="nome@exemplo.com">
 
                 </div>
 
                 <div class="single-input">
-                    <input type="tel" name="input_tel1" class="input" id="tel1" placeholder="Telefone principal" required>
+                    <label for="tel1">* Telefone principal</label>
+                    <input type="tel" name="input_tel1" class="input" id="tel1" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="tel" name="input_tel2" class="input" id="tel2" placeholder="Telefone secundário">
+                    <label for="tel2">Telefone Secundário</label>
+                    <input type="tel" name="input_tel2" class="input" id="tel2">
                 </div>
 
                 <div class="single-input">
-                    <input type="number" name="input_healthInsurance" class="input" id="healthInsurance" placeholder="Número do convênio">
+                    <label for="healthInsurance">Número do convênio</label>
+                    <input type="number" name="input_healthInsurance" class="input" id="healthInsurance">
                 </div>
 
                 <button type="submit" class="center" onclick="createPatient()">Salvar</button>

@@ -30,46 +30,56 @@
         </div>
         
         <div class="info">
-            <p class="text-info">Os campos marcados com um * são obrigatórios</p>
+            <p class="text-info">Os campos marcados com um * são obrigatórios.</p>
         </div>
 
         <div class="body">
             <form action="" class="form">
 
                 <div class="single-input">
-                        <label for="cpf" class="date">* CPF</label>
-                        <input type="numbers" name="input_cpf" class="input" id="cpf" placeholder="Insira apenas os números" required>
-                    </div>
+                    <label for="cpf" class="date">* CPF</label>
+                    <input type="numbers" name="input_cpf" class="input" id="cpf" placeholder="Insira apenas os números" required>
+                </div>
 
-                    <div class="single-input">
-                        <label for="cpf" class="date">* Nome completo</label>
-                        <input type="text" name="input_name" class="input" id="name" placeholder=" " required>
-                    </div>
+                <div class="single-input">
+                    <label for="name" class="date">* Nome completo</label>
+                    <input type="text" name="input_name" class="input" id="name" required>
+                </div>
 
-                    <div class="single-input">
-                        <label for="cpf" class="date">* Especialidade</label>
-                        <input type="text" name="input_specialty" class="input" id="specialty" placeholder=" " required>
-                    </div>
+                <div class="single-input">
+                    <select name="opt_doctor" id="opt_doctor">
+                        <option value="" disable selected>Médico - selecione:</option>
+                        <option value="d1">médico 1</option>
+                        <option value="d2">médico 2</option>
+                        <option value="d3">médico 3</option>
+                        <option value="d4">médico 4</option>
+                    </select>
+                </div>
 
-                    <div class="single-input">
-                        <label for="cpf" class="date">* Médico</label>
-                        <input type="text" name="input_doctor" class="input" id="doctor" placeholder=" " required>
-                    </div>
+                <div class="single-input">
+                    <select name="opt_specialty" id="opt_specialty">
+                        <option value="" disable selected>Especialidade - selecione:</option>
+                        <option value="s1">especialidade 1</option>
+                        <option value="s2">especialidade 2</option>
+                        <option value="s3">especialidade 3</option>
+                        <option value="s4">especialidade 4</option>
+                    </select>
+                </div>
 
-                    <div class="single-input">
-                        <label for="cpf" class="date">* Data da consulta</label>
-                        <input type="date" name="input_date" class="input" id="date" placeholder=" " required>
-                    </div>
+                <div class="single-input">
+                    <label for="date" class="date">* Data da consulta</label>
+                    <input type="date" name="input_date" class="input" id="date" required>
+                </div>
 
-                    <div class="single-input">
-                        <label for="cpf" class="date">* Horário da consulta</label>
-                        <input type="time" name="input_hour" class="input" id="hour" placeholder=" " required>
-                    </div>
+                <div class="single-input">
+                    <label for="hour" class="date">* Horário da consulta</label>
+                    <input type="time" name="input_hour" class="input" id="hour" required>
+                </div>
 
-                    <div class="single-input">
-                        <label for="cpf" class="date">Número do consultório</label>
-                        <input type="number" name="input_number" class="input" id="number" placeholder=" ">
-                    </div>
+                <div class="single-input">
+                    <label for="number" class="date">Número do consultório</label>
+                    <input type="number" name="input_number" class="input" id="number">
+                </div>
 
                 <button type="button" class="center" onclick="createAgenda()">Salvar</button>
                 <button type="reset" class="center">Limpar</button>
@@ -77,6 +87,7 @@
         </div>
 
     </div>
+
 
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>
     <script type="text/javascript" src="../../assets/js/info_post.js"></script>

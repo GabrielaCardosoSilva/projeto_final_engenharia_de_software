@@ -1,4 +1,4 @@
-/*------------------------------------------------- 
+/*-------------------------------------------------
                                                   *
 Contém os estilos da página agenda_create.php     *
 * Informativo no topo da tela                     *
@@ -47,78 +47,17 @@ input::placeholder{
     border-bottom: 2px solid #8A9EBA;
 }
 
-input:not(:placeholder-shown) {
-    border-color: #A6A6A6;
-  }
-
-input:placeholder-shown {
-    border-color: #8A9EBA ;
-}
-
 select{
-    color: #A6A6A6;
+    color: #8A9EBA;
     font-size: 15px;
     border: 0;
     border-bottom: 1px solid #8A9EBA;
     outline: none;
-}
-
-
-
-/* .text-info{
-    font-size: 16px;
-    color: #8A9EBA;
-    padding: 30px 50px;
-}
-
-.single-input{
-    position: relative;
-    width: 80%;
-    padding-top: 20px;
-}
-
-.label{
-    position: absolute;
-    bottom: 5px;
-    left: 0;
-    cursor: text;
-    transition: all 0.5s ease-in-out;
-}
-
-label{
-    color: #A6A6A6;
-    font-size: 15px;
-}
-
-.input{
     width: 100%;
-    padding: 5px;
-    border: 0;
-    border-bottom: 1px solid #8A9EBA;
-    outline: 0;
-    color:#A6A6A6;
+    padding: 15px 5px 5px 0px;
 }
 
-.input:focus{
-    border-bottom: 2px solid #8A9EBA;
-}
-
-.input:focus ~ .label,
-.input:valid ~ .label{
-    transform: translateY(-20px);
-    font-size: 12px;
+select:invalid{
     color: #8A9EBA;
 }
 
-button{
-    padding: 7px 20px;
-    border-radius: 5px;
-    border:1px solid #8A9EBA;
-    background-color: #8A9EBA;
-    color:#fff;
-    margin-top: 40px;
-}
-
-form{
-    padding: 0px 50px 20px 50px;
-} */

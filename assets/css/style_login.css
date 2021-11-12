@@ -1,0 +1,48 @@
+/*------------------------------------------------- 
+                                                  *
+Contém os estilos da página login.html            *
+                                                  *
+------------------------------------------------- */
+
+
+form{
+    width: 400px;
+    padding: 20px;
+}
+
+.single-input{
+    position: relative;
+    margin: 30px 0;
+}
+
+label{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    color: #A6A6A6;
+    cursor: text;
+    transition: all 0.5s ease-in-out;
+}
+
+.input{
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px solid #8A9EBA;
+    outline: 0;
+    font-size: 16px;
+    transition: all 0.5s ease-in-out;
+}
+
+.input:focus,
+.input:valid{
+    border-bottom: 2px solid #8A9EBA;
+}
+
+.input:focus ~ label,
+.input:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #8A9EBA;
+}
+
