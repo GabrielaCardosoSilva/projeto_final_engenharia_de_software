@@ -1,5 +1,23 @@
+/*----------------------------------------------------------------- 
+                                                                  *
+Contém estilos dos elementos comuns à maioria das páginas:        * 
+* Botões                                                          *
+* Cabeçalhos com o ítilo da página e botão de ajuda               *
+* Caixa de busca                                                  *
+* Fonte                                                           *
+                                                                  *
+-----------------------------------------------------------------*/
+
+
+/* Fonte de todo conteúdo, exceto títulos  */
 body{
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+/* Padrões do cabeçalho */
+.help{
+    color: #8A9EBA;
+    float: right;
 }
 
 .h1-title{
@@ -9,11 +27,12 @@ body{
     color: #8A9EBA;   
 }
 
-.help{
+.p-title{
+    padding-top: 20px;
     color: #8A9EBA;
-    float: right;
 }
 
+/* Caixa de busca */
 .div-search{
     padding-left: 50px;
     position: relative;
@@ -42,20 +61,17 @@ body{
 }
 
 /* delete_select */
+/* Botões */
+.div-button{
+    margin-top: 40px;
+}
+
 button{
     padding: 7px 20px;
     border-radius: 5px;
     border:1px solid #8A9EBA;
     background-color: #8A9EBA;
     color:#fff;
-    margin-top: 40px;
-}
-
-.div-consult{
-    margin-bottom: 40px;
-}
-
-.div-button{
     margin-top: 40px;
 }
 
@@ -77,4 +93,10 @@ button{
     width: 90px;
     height: 31px;
     border: 0;
+}
+
+/* Não sei oq é */
+/* Não tem no agenda_create */
+.div-consult{
+    margin-bottom: 40px;
 }

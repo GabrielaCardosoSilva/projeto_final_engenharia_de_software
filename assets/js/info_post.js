@@ -124,9 +124,11 @@ function createSpecialty(){
 
 // Envia as informações para a api
 function postInfo(url, doc) {
+    let xhr = new XMLHttpRequest()
+
     xhr.responseType = "json"
     xhr.onreadystatechange = function(){
-        if(xhr.readyState == 4 && xhr.status == 200){
+        if(xhr.readyState == 4){
             doc = xhr.response
             console.log(xhr)
         }
@@ -135,3 +137,41 @@ function postInfo(url, doc) {
     xhr.open("POST", url)
     xhr.send(doc)  
 }
+
+// Envia as informações para a api
+function postInfo(url, doc) {
+    let xhr = new XMLHttpRequest() 
+    xhr.responseType = "json"
+    
+    xhr.onreadystatechange = function(){
+        if(xhr.readyState == 4){
+            
+            if(xhr.status == 200){
+                doc = xhr.response
+                alert("Dados enviados com sucesso.");
+            }
+            else if(xhr.status == 400){
+                alert("Este cadastro já existe.");
+            }
+            else if(xhr.status == 404){
+                alert("Tente novamente mais tarde");
+            }
+            else{
+                alert("Realize o cadastro novamente");
+            }       
+        }
+    }
+    
+    xhr.open("POST", url)
+    xhr.send(doc)  
+}
+
+// fetch("https://reqres.in/api/users"), {
+//     method: "POST",
+//     headers: {
+//         "Content-Type": application/json
+//     },
+//     body: JSON.stringify({name: "Lucas"})
+// })
+//     .then((response)=>response.json())
+//     .then((data) =>console.log(data));

@@ -26,41 +26,49 @@
                 <span class="material-icons help">help</span>
             </a>
             <h1 class="h1-title">Agendar consultas</h1>
+            <p class="p-title">Para agendar novas consultas, preencha os campos abaixo e clique em salvar.</p>
         </div>
         
         <div class="info">
-            <p class="text-info">Para agendar novas consultas, preencha os campos abaixo e clique em salvar.</p>
+            <p class="text-info">Os campos marcados com um * são obrigatórios</p>
         </div>
 
         <div class="body">
             <form action="" class="form">
 
-            <div class="single-input">
-                        <input type="numbers" name="input_cpf" class="input" id="cpf" placeholder="CPF" required>
+                <div class="single-input">
+                        <label for="cpf" class="date">* CPF</label>
+                        <input type="numbers" name="input_cpf" class="input" id="cpf" placeholder="Insira apenas os números" required>
                     </div>
 
                     <div class="single-input">
-                        <input type="text" name="input_name" class="input" id="name" placeholder="Nome completo" required>
+                        <label for="cpf" class="date">* Nome completo</label>
+                        <input type="text" name="input_name" class="input" id="name" placeholder=" " required>
                     </div>
 
                     <div class="single-input">
-                        <input type="text" name="input_specialty" class="input" id="specialty" placeholder="Especialidade" required>
+                        <label for="cpf" class="date">* Especialidade</label>
+                        <input type="text" name="input_specialty" class="input" id="specialty" placeholder=" " required>
                     </div>
 
                     <div class="single-input">
-                        <input type="text" name="input_doctor" class="input" id="doctor" placeholder="Médico" required>
+                        <label for="cpf" class="date">* Médico</label>
+                        <input type="text" name="input_doctor" class="input" id="doctor" placeholder=" " required>
                     </div>
 
                     <div class="single-input">
-                        <input type="date" name="input_date" class="input" id="date" required>
+                        <label for="cpf" class="date">* Data da consulta</label>
+                        <input type="date" name="input_date" class="input" id="date" placeholder=" " required>
                     </div>
 
                     <div class="single-input">
-                        <input type="time" name="input_hour" class="input" id="hour" required>
+                        <label for="cpf" class="date">* Horário da consulta</label>
+                        <input type="time" name="input_hour" class="input" id="hour" placeholder=" " required>
                     </div>
 
                     <div class="single-input">
-                        <input type="number" name="input_number" class="input" id="number" placeholder="Número do consultório">
+                        <label for="cpf" class="date">Número do consultório</label>
+                        <input type="number" name="input_number" class="input" id="number" placeholder=" ">
                     </div>
 
                 <button type="button" class="center" onclick="createAgenda()">Salvar</button>

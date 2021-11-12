@@ -1,7 +1,21 @@
+/*------------------------------------------------- 
+                                                  *
+Contém os estilos da página agenda_create.php     *
+* Informativo no topo da tela                     *
+* Formulários                                     *
+                                                  *
+------------------------------------------------- */
+
+/* Informativo no topo da tela */
 .text-info{
     font-size: 16px;
-    color: #8A9EBA;
+    color:#A6A6A6; 
     padding: 30px 50px;
+}
+
+/* Formulário */
+form{
+    padding: 0px 50px 20px 50px;
 }
 
 .single-input{
@@ -10,9 +24,13 @@
     padding-top: 30px;
 }
 
-input::placeholder, label{
+label{
+    color: #8A9EBA;
+}
+
+input::placeholder{
     color: #A6A6A6;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .input{
@@ -29,6 +47,14 @@ input::placeholder, label{
     border-bottom: 2px solid #8A9EBA;
 }
 
+input:not(:placeholder-shown) {
+    border-color: #A6A6A6;
+  }
+
+input:placeholder-shown {
+    border-color: #8A9EBA ;
+}
+
 select{
     color: #A6A6A6;
     font-size: 15px;
@@ -38,18 +64,6 @@ select{
 }
 
 
-button{
-    padding: 7px 20px;
-    border-radius: 5px;
-    border:1px solid #8A9EBA;
-    background-color: #8A9EBA;
-    color:#fff;
-    margin-top: 40px;
-}
-
-form{
-    padding: 0px 50px 20px 50px;
-}
 
 /* .text-info{
     font-size: 16px;
