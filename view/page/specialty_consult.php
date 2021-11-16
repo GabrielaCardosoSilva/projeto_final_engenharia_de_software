@@ -29,15 +29,44 @@
         </div>
 
         <div class="info">
-            <div class="div-search">
-                <input type="search" name="input_search" id="input_search" class="ipt_search" placeholder="Buscar">
-                <span class="material-icons" id="icon-search" onclick="getInfo()">search</span>
-            </div>
+            <form action=" " method="post"> 
+                <div class="div-search">  
+                    <input type="search" class="ipt-search" name="ipt-search" placeholder="Buscar">
+                    <button type="submit" class="btn-search">
+                        <span class="material-icons" id="icon-search">search</span>
+                    </button>
+                </div>
+            </form>
         </div>
 
         <div class="body">
 
-            <div class="div-header">
+            <form action="" method="post">
+                <table class="table">
+                    <tr class="line">
+                        <td class="col1">
+                        <span class="material-icons">star</span>     
+                        </td>
+    
+                        <td class="col2">
+                            <p><span class="span-bold">Número de identificação:</span> 00</p>
+                            <p><span class="span-bold">Especialidade:</span> especialidade x</p>
+                            <p class="p-more"><a href="#" class="more">Clique aqui para ver os detalhes da especialidade</a></p>
+                        </td>
+    
+                        <td class="col3">
+                            <button class="btn-action" id="btn-edit">
+                                <span class="material-icons icon-edit">edit</span>
+                            </button>
+                            <button class="btn-action" id="btn-delete">
+                                <span class="material-icons" id="icon-delete">delete</span>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+            <!-- <div class="div-header">
                 <p>Especialidade X</p>
                 <p>Número de identificação: 0001</p>
             </div>
@@ -52,10 +81,10 @@
                     <a href="../page/specialty_alter.php" class="button">Alterar</a>
                     <a href="../page/specialty_print.php" class="button">Imprimir</a>
                     <a href="#" class="button">Excluir</a>
-                    <!-- O botão de exclusão deve abrir um pop-up de confirmação e não redirecionar a uma página -->
+
                 </div>
 
-            </div>
+            </div> -->
         </div>
 
     </div>

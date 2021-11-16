@@ -35,30 +35,34 @@ body{
 /* Caixa de busca */
 .div-search{
     padding-left: 50px;
-    position: relative;
-    width: 250px;
-    height: 100px;
+    /* position: relative; */
+    /* width: 250px;
+    height: 100px; */
 }
 
-.ipt_search{
+.ipt-search{
     border: 0;
     border-bottom: 1px solid #8A9EBA;
     outline: 0;
     color:#A6A6A6; 
-    position: absolute;
+    /* position: absolute; */
     margin-top: 30px;
     padding-bottom: 5px;
     width: 180px;   
 }
 
 #icon-search{
-    color: #8a9eba;
+    color: #8A9EBA;
     font-size: 20px;
+    font-weight: bold;
+    margin-left: -10px;
+    /* font-size: 20px;
     display: inline;
     margin-top: 26px;
     float:right;
-    cursor: pointer;
+    cursor: pointer; */
 }
+
 
 /* Botões */
 .div-button{
@@ -71,7 +75,7 @@ button{
     border:1px solid #8A9EBA;
     background-color: #8A9EBA;
     color:#fff;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 .button{
@@ -94,8 +98,26 @@ button{
     border: 0;
 }
 
+.btn-search{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-edit:hover{
+    background-color: #ADBD5E;
+    border: 1px solid #ADBD5E;
+}
+
+#btn-delete:hover{
+    background-color: #BD574D;
+    border: 1px solid #BD574D;
+}
+
+
 /* Não sei oq é */
 /* Não tem no agenda_create */
 .div-consult{
     margin-bottom: 40px;
 }
+

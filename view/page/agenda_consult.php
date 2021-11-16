@@ -7,10 +7,9 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/navbar.css">
+    <link rel="stylesheet" href="../../assets/css/grid.css">
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/style_consult.css">
-    <!-- <link rel="stylesheet" href="../../assets/css/style_consult.css"> -->
-    <link rel="stylesheet" href="../../assets/css/grid.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
@@ -29,88 +28,52 @@
             <h1 class="h1-title">Consultar agendas</h1>
         </div>
 
+
         <div class="info">
-            <div class="div-search">
-                <input type="search" name="input_search" id="input_search" class="ipt_search" placeholder="Buscar">
-                <span class="material-icons" id="icon-search" onclick="getInfo()">search</span>
-            </div>
+            <form action=" " method="post"> 
+                <div class="div-search">  
+                    <input type="search" class="ipt-search" name="ipt-search" placeholder="Buscar">
+                    <button type="submit" class="btn-search">
+                        <span class="material-icons" id="icon-search">search</span>
+                    </button>
+                </div>
+            </form>
         </div>
 
         <div class="body">
             
             <div class="div-header">
+                <p>Consultas agendadas para hoje</p>
                 <p>dd/mm/aaaa</p>
-                <p>00:00</p>
             </div>
 
-            <div class="div-contents">        
+            <form action="" method="post">
+                <table class="table">
+                    <tr class="line">
+                        <td class="col1">
+                            <p>00:00</p>     
+                        </td>
+    
+                        <td class="col2">
+                            <p><span class="span-bold">Paciente:</span> Nome do paciente</p>
+                            <p><span class="span-bold">Médico:</span> Nome do médico</p>
+                            <p><span class="span-bold">Especialidade:</span> Especialidade X</p>
+                            <p class="p-more"><a href="#"  class="more">Clique aqui para ver os detalhes do agendamento</a></p>
+                        </td>
+    
+                        <td class="col3">
+                            <button class="btn-action" id="btn-edit">
+                                <span class="material-icons icon-edit">edit</span>
+                            </button>
+                            <button class="btn-action" id="btn-delete">
+                                <span class="material-icons" id="icon-delete">delete</span>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
 
-                <p><span class="bold">Identificação da consulta: </span>001</p>
-                <p><span class="bold">Médico: </span>Nome do médico</p>
-                <p><span class="bold">Especialidade: </span>Nome da especialidade</p>
-                <p><span class="bold">Paciente: </span>Nome do paciente</p>
-
-                <div class="div-button">
-                    <a href="../page/agenda_alter.php" class="button">Alterar</a>
-                    <a href="../page/agenda_print.php" class="button">Imprimir</a>
-                    <a href="#" class="button">Excluir</a>
-                    <!-- O botão de exclusão deve abrir um pop-up de confirmação e não redirecionar a uma página -->
-                </div>
-
-            </div>
         </div>
-
-        <!-- <div class="body1">
-            <div class="div-contents">
-                <div class="div-header">
-                    <p>dd/mm/aaaa</p>
-                    <p>00:00</p>
-                </div>
-
-                <div class="div-consult">
-                    <p><span class="span-bold">Médico:</span> Nome do médico</p>
-                    <p><span class="span-bold">Especialidade:</span> Especialidade X</p>
-                    <p><sapn class="span-bold">Paciente:</span> Nome do paciente</p>
-                </div>
-                
-                <a href="../page/agenda_detail.php" class="button"> Ver mais</a>
-            </div>
-        </div>
-
-        <div class="body2">
-            <div class="div-contents">
-                <div class="div-header">
-                    <p>dd/mm/aaaa</p>
-                    <p>00:00</p>
-                </div>
-                
-                <div class="div-consult">
-                    <p><span class="span-bold">Médico:</span> Nome do médico</p>
-                    <p><span class="span-bold">Especialidade:</span> Especialidade X</p>
-                    <p><sapn class="span-bold">Paciente:</span> Nome do paciente</p>
-                </div>
-                
-                <a href="../page/agenda_detail.php" class="button"> Ver mais</a>
-            </div>    
-        </div>
-
-        <div class="body3">
-            <div class="div-contents">
-                <div class="div-header">
-                    <p>dd/mm/aaaa</p>
-                    <p>00:00</p>
-                </div>
-                
-                <div class="div-consult">
-                    <p><span class="span-bold">Médico:</span> Nome do médico</p>
-                    <p><span class="span-bold">Especialidade:</span> Especialidade X</p>
-                    <p><sapn class="span-bold">Paciente:</span> Nome do paciente</p>
-                </div>
-                
-                <a href="../page/agenda_detail.php" class="button"> Ver mais</a>
-            </div>   
-        </div> -->
-
     </div>
 
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>
