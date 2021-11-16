@@ -43,11 +43,10 @@
                 <div class="single-input">
                     <label for="descripition">Descrição da especialidade</label>
                     <input type="text" name="input_description" class="input" id="description">
-                </div>
-            
+                </div>  
 
-                <button type="button" class="center" onclick="createSpecialty()" >Salvar</button>
-                <button type="reset" class="center">Limpar</button>
+                <button type="button" class="button">Salvar</button>
+                <button type="reset" class="button">Limpar</button>
 
             </form>
         </div>

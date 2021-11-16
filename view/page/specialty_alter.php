@@ -23,27 +23,33 @@
             <a href="help.php">
                 <span class="material-icons help">help</span>
             </a>
-            <h1 class="h1-title">Especialidade X</h1>
+            <h1 class="h1-title">Alterar especialidades</h1>
+            <p class="p-title">Para alterar a especialidade, redigite os campos desejados abaixo e clique em alterar.</p>
         </div>
 
         <div class="info">
-            <p class="text-info">Para alterar a especialidade, redigite os campos desejados abaixo e clique em alterar.</p>
+            <p class="text-info">Os campos marcados com um * são obrigatórios.</p>
         </div>
 
         <div class="body">
-            <form action="" class="form">
+            <form action="" method="post" class="form">
+
                 <div class="single-input">
-                    <input type="text" name="input_specialty" class="input" id="specilaty" placeholder="Nome da especialidade" required>
+                    <label for="specialty">* Nome da especialidade</label>
+                    <input type="text" name="input_specialty" class="input" id="specialty" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="text" name="input_description" class="input" id="description" placeholder="Descrição" required>
-                </div>
-                
-                <button type="submit" onclick="createSpecialty()">Alterar</button>
-                <input type="button" value="Voltar" onClick="history.go(-1)" class="ipt-button"> 
-            </form>    
+                    <label for="descripition">Descrição da especialidade</label>
+                    <input type="text" name="input_description" class="input" id="description">
+                </div>  
+
+                <button type="button" class="button">Salvar</button>
+                <button type="reset" class="button">Limpar</button>
+
+            </form>
         </div>
+
     </div>
 
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>

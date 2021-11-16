@@ -149,8 +149,8 @@
                     <input type="tel" name="input_tel2" class="input" id="tel2" placeholder="Apenas números e com ddd">
                 </div>
 
-                <button type="submit" class="center" onclick="createDoctor()">Salvar</button>
-                <button type="reset" class="center">Limpar</button>
+                <button type="submit" class="button">Salvar</button>
+                <button type="reset" class="button">Limpar</button>
             </form>
         </div>
 

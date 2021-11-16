@@ -52,7 +52,7 @@
                             <p><span class="span-bold">Médico:</span> Nome do médico</p>
                             <p><span class="span-bold">CPF:</span> 000.000.000-00</p>
                             <p><span class="span-bold">CRM:</span> 000000000</p>
-                            <p class="p-more"><a href="#" class="more">Clique aqui para ver os detalhes do médico</a></p>
+                            <button class="more">Clique aqui para ver os detalhes do médico</button>
                         </td>
     
                         <td class="col3">

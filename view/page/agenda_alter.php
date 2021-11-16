@@ -21,49 +21,73 @@
             <?php include('../layout/navbar.php')?>
         </div>
 
+        <div class="navbar">
+            <?php include('../layout/navbar.php')?>
+        </div>
+
         <div class="title">
             <a href="help.php">
                 <span class="material-icons help">help</span>
             </a>
-            <h1 class="h1-title">Agenda 001</h1>
+            <h1 class="h1-title">Alterar consultas</h1>
+            <p class="p-title">Para aterar consultas, preencha os campos abaixo e clique em salvar.</p>
         </div>
-
+        
         <div class="info">
-            <p class="text-info">Para alterar a consulta, redigite os campos desejados abaixo e clique em alterar.</p>
+            <p class="text-info">Os campos marcados com um * são obrigatórios.</p>
         </div>
 
         <div class="body">
             <form action="" class="form">
 
                 <div class="single-input">
-                    <input type="text" name="input_name" class="input" id="name" placeholder="Nome completo" required>
+                    <label for="cpf" class="date">* CPF</label>
+                    <input type="numbers" name="input_cpf" class="input" id="cpf" placeholder="Insira apenas os números" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="text" name="input_specialty" class="input" id="specialty" placeholder="Especialidade" required>
-                </div>
-                
-                <div class="single-input">
-                    <input type="text" name="input_doctor" class="input" id="doctor" placeholder="Médico" required>
+                    <label for="name" class="date">* Nome completo</label>
+                    <input type="text" name="input_name" class="input" id="name" required>
                 </div>
 
                 <div class="single-input">
-                    <label for="date">Data da consulta:</label>
+                    <select name="opt_doctor" id="opt_doctor">
+                        <option value="" disable selected>Médico - selecione:</option>
+                        <option value="d1">médico 1</option>
+                        <option value="d2">médico 2</option>
+                        <option value="d3">médico 3</option>
+                        <option value="d4">médico 4</option>
+                    </select>
+                </div>
+
+                <div class="single-input">
+                    <select name="opt_specialty" id="opt_specialty">
+                        <option value="" disable selected>Especialidade - selecione:</option>
+                        <option value="s1">especialidade 1</option>
+                        <option value="s2">especialidade 2</option>
+                        <option value="s3">especialidade 3</option>
+                        <option value="s4">especialidade 4</option>
+                    </select>
+                </div>
+
+                <div class="single-input">
+                    <label for="date" class="date">* Data da consulta</label>
                     <input type="date" name="input_date" class="input" id="date" required>
                 </div>
 
                 <div class="single-input">
-                    <label for="hour">Horário da consulta</label>
+                    <label for="hour" class="date">* Horário da consulta</label>
                     <input type="time" name="input_hour" class="input" id="hour" required>
                 </div>
 
                 <div class="single-input">
-                    <input type="number" name="input_number" class="input" id="number" placeholder="Número do consultório" required>
+                    <label for="number" class="date">Número do consultório</label>
+                    <input type="number" name="input_number" class="input" id="number">
                 </div>
 
-                <button type="submit" onclick="getInfo()">Alterar</button>
-                <input type="button" value="Voltar" onClick="history.go(-1)" class="ipt-button">
-            </form> 
+                <button type="button" class="button" onclick="createAgenda()">Salvar</button>
+                <button type="reset" class="button">Limpar</button>
+            </form>
         </div>
     </div>
 

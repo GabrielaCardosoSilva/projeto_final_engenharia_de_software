@@ -51,7 +51,7 @@
                         <td class="col2">
                             <p><span class="span-bold">Número de identificação:</span> 00</p>
                             <p><span class="span-bold">Especialidade:</span> especialidade x</p>
-                            <p class="p-more"><a href="#" class="more">Clique aqui para ver os detalhes da especialidade</a></p>
+                            <button class="more">Clique aqui para ver os detalhes do agendamento</button>
                         </td>
     
                         <td class="col3">

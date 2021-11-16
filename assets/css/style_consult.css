@@ -61,10 +61,10 @@ conteúdo dentro da tabela
     font-weight: bold;
     color: #8A9EBA;
 }
-.p-more{
-    margin-top: 10px;
-}
+
 .more{
+    margin-top: 10px;
+    border: 0;
     text-decoration: none;
     color: #8A9EBA;
     font-size: 14px;

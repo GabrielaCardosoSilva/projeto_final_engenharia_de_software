@@ -156,8 +156,8 @@
                     <input type="number" name="input_healthInsurance" class="input" id="healthInsurance">
                 </div>
 
-                <button type="submit" class="center" onclick="createPatient()">Salvar</button>
-                <button type="reset" class="center">Limpar</button>
+                <button type="submit" class="button">Salvar</button>
+                <button type="reset" class="button">Limpar</button>
             </form>
         </div>
     </div>

@@ -81,8 +81,8 @@
                     <input type="number" name="input_number" class="input" id="number">
                 </div>
 
-                <button type="button" class="center" onclick="createAgenda()">Salvar</button>
-                <button type="reset" class="center">Limpar</button>
+                <button type="button" class="button" onclick="createAgenda()">Salvar</button>
+                <button type="reset" class="button">Limpar</button>
             </form>
         </div>
 

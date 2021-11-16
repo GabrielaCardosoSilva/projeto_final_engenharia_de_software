@@ -52,7 +52,7 @@
                             <p><span class="span-bold">Paciente:</span> Nome do paciente</p>
                             <p><span class="span-bold">CPF:</span> 000.000.000-00</p>
                             <p><span class="span-bold">Idade:</span> 00</p>
-                            <p class="p-more"><a href="#" class="more">Clique aqui para ver os detalhes do paciente</a></p>
+                            <button class="more">Clique aqui para ver os detalhes do paciente</button>
                         </td>
     
                         <td class="col3">

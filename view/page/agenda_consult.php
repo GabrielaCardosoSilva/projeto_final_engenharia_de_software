@@ -58,7 +58,7 @@
                             <p><span class="span-bold">Paciente:</span> Nome do paciente</p>
                             <p><span class="span-bold">Médico:</span> Nome do médico</p>
                             <p><span class="span-bold">Especialidade:</span> Especialidade X</p>
-                            <p class="p-more"><a href="#"  class="more">Clique aqui para ver os detalhes do agendamento</a></p>
+                            <button class="more">Clique aqui para ver os detalhes do agendamento</button>
                         </td>
     
                         <td class="col3">
