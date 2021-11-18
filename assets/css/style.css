@@ -7,7 +7,7 @@ Contém estilos dos elementos comuns à maioria das páginas:        *
 * Fonte                                                           *
                                                                   *
 -----------------------------------------------------------------*/
-
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 /* Fonte de todo conteúdo, exceto títulos  */
 body{
@@ -68,6 +68,10 @@ body{
     margin-top: 40px;
 }
 
+.button:hover{
+    background-color: #86a3cc;
+}
+
 .btn-action{
     padding: 7px 20px;
     border-radius: 5px;
@@ -105,7 +109,7 @@ body{
     border: 1px solid #ADBD5E;
 }
 
-#btn-delete:hover{
+#open-modal:hover{
     background-color: #BD574D;
     border: 1px solid #BD574D;
 }

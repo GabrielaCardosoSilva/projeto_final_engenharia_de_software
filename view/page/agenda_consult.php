@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="../../assets/css/grid.css">
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/style_consult.css">
+    <link rel="stylesheet" href="../../assets/css/modal_consult.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
@@ -53,19 +55,19 @@
                         <td class="col1">
                             <p>00:00</p>     
                         </td>
-    
+
                         <td class="col2">
                             <p><span class="span-bold">Paciente:</span> Nome do paciente</p>
                             <p><span class="span-bold">Médico:</span> Nome do médico</p>
                             <p><span class="span-bold">Especialidade:</span> Especialidade X</p>
                             <button class="more">Clique aqui para ver os detalhes do agendamento</button>
                         </td>
-    
+
                         <td class="col3">
                             <button class="btn-action" id="btn-edit">
                                 <span class="material-icons icon-edit">edit</span>
                             </button>
-                            <button class="btn-action" id="btn-delete">
+                            <button class="btn-action" id="open-modal"><!-- modal-button-->
                                 <span class="material-icons" id="icon-delete">delete</span>
                             </button>
                         </td>

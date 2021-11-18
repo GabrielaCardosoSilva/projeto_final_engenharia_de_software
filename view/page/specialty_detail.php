@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../../assets/css/navbar.css">
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/grid.css">
-    <link rel="stylesheet" href="../../assets/css/style_delete_select.css">
+    <link rel="stylesheet" href="../../assets/css/style_consult.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
@@ -38,9 +38,13 @@
         <div class="body">
             <div class="div-contents"> 
 
-                <p><span class="bold">Descrição: </span>xxxxxxxx</p>
-                <p><span class="bold">Médicos habilitados: </span>Nome do médico</p>
-                <p><span class="bold">Número do consultório: </span>00</p>       
+                <p><span class="span-bold">Descrição: </span>xxxxxxxx</p>
+                <p><span class="span-bold">Médicos habilitados: </span>
+                    <ul>
+                        <li class="list-doctor">Nome do médico</li>
+                    </ul>
+                </p>
+                <p><span class="span-bold">Número do consultório: </span>00</p>       
 
                 <div class="div-button">
                     <a href="../page/agenda_alter.php" class="button">Alterar</a>

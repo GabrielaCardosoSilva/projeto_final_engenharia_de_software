@@ -29,30 +29,25 @@
         </div>
 
         <div class="info">
-            <div class="div-search">
-                <input type="search" name="input_search" id="input_search" class="ipt_search" placeholder="Buscar">
-                <span class="material-icons" id="icon-search">search</span>
-            </div>
-        </div>
-
-        <div class="body">
             <div class="div-header">
                 <p>dd/mm/aaaa</p>
                 <p>00:00</p>
             </div>
+        </div>
+
+        <div class="body">
 
             <div class="div-contents">        
 
-                <p><span class="bold">Identificação da consulta: </span>001</p>
-                <p><span class="bold">Médico: </span>Nome do médico</p>
-                <p><span class="bold">Especialidade: </span>Nome da especialidade</p>
-                <p><span class="bold">Paciente: </span>Nome do paciente</p>
+                <p><span class="span-bold">Identificação da consulta: </span>001</p>
+                <p><span class="span-bold">Médico: </span>Nome do médico</p>
+                <p><span class="span-bold">Especialidade: </span>Nome da especialidade</p>
+                <p><span class="span-bold">Paciente: </span>Nome do paciente</p>
             
                 <div class="div-button">
                     <a href="../page/agenda_alter.php" class="button">Alterar</a>
                     <a href="../page/agenda_print.php" class="button">Imprimir</a>
                     <a href="#" class="button">Excluir</a>
-                    <!-- O botão de exclusão deve abrir um pop-up de confirmação e não redirecionar a uma página -->
                 </div>
 
             </div>
