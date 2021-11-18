@@ -15,16 +15,19 @@
 
 
     <h1 class="h1-title">
-        Redefinição de senha
+        Cadastrar novos usuários
     </h1>
 
     <h2 class="h2-subtitle">
-        Essa operação só pode ser feita por um administrador.
+        Preencha os campos a seguir .
     </h2>
 
-    <p class="p-info">Entre com uma conta de administrador para prosseguir.</p>
-
     <form>
+        <div class="single-input">
+            <input type="text" class="input" id="name" required>
+            <label for="name">Nome completo</label>
+        </div>
+
         <div class="single-input">
             <input type="text" class="input" id="cpf" required>
             <label for="cpf">CPF - apenas números</label>
@@ -37,7 +40,7 @@
 
         <div>
             <input type="button" value="Voltar" onClick="history.go(-1)" class="ipt-button">
-            <button type="button" class="button">Entrar</button>
+            <button type="button" class="button">Cadastrar</button>
         </div>
     </form>
 
