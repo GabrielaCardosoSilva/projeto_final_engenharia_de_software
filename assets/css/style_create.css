@@ -13,6 +13,25 @@ Contém os estilos das páginas que terminam em: create.php     *
     padding: 30px 50px;
 }
 
+.div-success, .div-fail{
+    height: 60px;
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.div-success{
+    background-color: #ADBD5E;
+}
+
+.div-fail{
+    background-color: #BD574D;
+}
+
 /* Formulário */
 form{
     padding: 0px 50px 20px 50px;

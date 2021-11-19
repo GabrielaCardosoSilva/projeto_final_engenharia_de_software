@@ -34,6 +34,17 @@
         </div>
 
         <div class="body">
+
+            <div class="div-success">
+                <span class="material-icons">check_circle</span>
+                <p class="p-success">Cadastro concluído com sucesso.</p>
+            </div>
+
+            <div class="div-fail">
+                <span class="material-icons">error</span>
+                <p>Falha no cadastro, tente novamente.</p>
+            </div>
+
             <form action="" class="form">
                 <div class="single-input">
                     <label for="name">* Nome completo</label>
@@ -145,7 +156,7 @@
                 </div>
 
                 <div class="single-input">
-                <label for="tel2">Telefone secundário</label>
+                    <label for="tel2">Telefone secundário</label>
                     <input type="tel" name="input_tel2" class="input" id="tel2" placeholder="Apenas números e com ddd">
                 </div>
 
@@ -155,6 +166,7 @@
         </div>
 
     </div>
+    
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>
     <script type="text/javascript" src="../../assets/js/info_post.js"></script>
 </body>

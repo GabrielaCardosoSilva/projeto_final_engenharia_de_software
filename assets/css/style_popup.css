@@ -1,0 +1,60 @@
+.model{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #a6a6a6c0;
+    z-index: 1;
+    display: none;
+}
+
+.model-popup-delete, .model-popup, .model-popup-login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.model-popup, .model-popup-login{
+    height: auto;
+}
+
+.model-popup-login{
+    text-align: center;
+}
+
+#warning{
+    color: #8A9EBA;
+    padding-bottom: 30px;
+    font-size: 35px; 
+}
+
+#btn-close{
+    color: #8A9EBA; 
+    float: right;
+    cursor: pointer;
+}
+
+.h1-popup{
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    color:#8A9EBA;
+    padding-bottom: 40px;
+}
+
+.p-popup{
+    font-size: 15px;
+}
+
+#delete{
+    position: absolute;
+    bottom: 25px;
+}
+
+#btn-edit, #close{
+    margin-top: 40px;
+}

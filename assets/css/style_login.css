@@ -5,10 +5,32 @@ Contém os estilos da página login.html            *
 ------------------------------------------------- */
 
 
-body{
-    padding: 50px 0 0 50px;
+body{  
     height: 100vh;
     width: 100vh;
+}
+
+.div-success, .div-fail{
+    height: 60px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.div-container{
+    padding: 50px 0 0 50px;
+}
+
+.div-success{
+    background-color: #ADBD5E;
+}
+
+.div-fail{
+    background-color: #BD574D;
 }
 
 .h1-title{

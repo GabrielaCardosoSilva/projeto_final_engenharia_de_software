@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>cadastrar especialidades</title>
+    <title>Cadastrar especialidades</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/navbar.css">
@@ -33,8 +33,18 @@
         </div>
 
         <div class="body">
-            <form action="" method="post" class="form">
 
+            <div class="div-success">
+                <span class="material-icons">check_circle</span>
+                <p class="p-success">Cadastro concluído com sucesso.</p>
+            </div>
+
+            <div class="div-fail">
+                <span class="material-icons">error</span>
+                <p>Falha no cadastro, tente novamente.</p>
+            </div>
+
+            <form action="" method="post" class="form">
                 <div class="single-input">
                     <label for="specialty">* Nome da especialidade</label>
                     <input type="text" name="input_specialty" class="input" id="specialty" required>
@@ -47,9 +57,9 @@
 
                 <button type="button" class="button">Salvar</button>
                 <button type="reset" class="button">Limpar</button>
-
             </form>
         </div>
+    
     </div>
     
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>

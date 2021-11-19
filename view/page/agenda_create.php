@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/navbar.css">
-    <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/grid.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/style_create.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -34,6 +34,17 @@
         </div>
 
         <div class="body">
+
+            <div class="div-success">
+                <span class="material-icons">check_circle</span>
+                <p class="p-success">Cadastro concluído com sucesso.</p>
+            </div>
+
+            <div class="div-fail">
+                <span class="material-icons">error</span>
+                <p>Falha no cadastro, tente novamente.</p>
+            </div>
+
             <form action="" class="form">
 
                 <div class="single-input">
@@ -87,7 +98,6 @@
         </div>
 
     </div>
-
 
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>
     <script type="text/javascript" src="../../assets/js/info_post.js"></script>

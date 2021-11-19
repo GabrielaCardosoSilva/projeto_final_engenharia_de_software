@@ -72,6 +72,11 @@ body{
     background-color: #86a3cc;
 }
 
+.a-action{
+    color:#fff; 
+    text-decoration: none;
+}
+
 .btn-action{
     padding: 7px 20px;
     border-radius: 5px;
@@ -79,14 +84,6 @@ body{
     background-color: #8A9EBA;
     color:#fff;
 }
-
-/* .button{
-    padding: 7px 20px;
-    border-radius: 5px;
-    background-color: #8A9EBA;
-    color:#fff;
-    text-decoration: none;
-} */
 
 .ipt-button{
     border-radius: 5px;
@@ -109,7 +106,7 @@ body{
     border: 1px solid #ADBD5E;
 }
 
-#open-modal:hover{
+#btn-delete:hover{
     background-color: #BD574D;
     border: 1px solid #BD574D;
 }

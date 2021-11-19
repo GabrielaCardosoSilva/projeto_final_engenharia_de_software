@@ -2,7 +2,7 @@
     <head>
         <meta charset='utf-8'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-        <title>Redefinir Senha</title>
+        <title>Login</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel="stylesheet" href="../../assets/css/reset.css">
         <link rel="stylesheet" href="../../assets/css/style.css">
@@ -24,40 +24,34 @@
             <button class="btn-action" id="close">Ok</button>          
         </div>        
     </div>
-
+    
     <div class="div-container">
-        
+
         <h1 class="h1-title">
-            Cadastrar novos usuários
+            Clinsav Base
         </h1>
-    
-        <h2 class="h2-subtitle">
-            Essa operação só pode ser feita por um administrador.
-        </h2>
-    
-        <p class="p-info">Entre com uma conta de administrador para prosseguir.</p>
-    
+
         <form>
             <div class="single-input">
                 <input type="text" class="input" id="cpf" required>
                 <label for="cpf">CPF - apenas números</label>
             </div>
-    
+
             <div class="single-input">
                 <input type="password" class="input" id="password" required>
                 <label for="password">Senha</label>
             </div>
-    
+            
+            <a href="reset_password.html" class="reset">Esqueceu sua senha? clique aqui.</a>
+
             <div>
-                <input type="button" value="Voltar" onClick="history.go(-1)" class="ipt-button">
+                <button type="button" class="button">Cadastrar</button>
                 <button type="button" class="button">Entrar</button>
             </div>
         </form>
-    
+
         <img src="../../assets/img/shape.png" alt="shape decoration" class="img-shape">
-    </div>
-
-
     
+    </div>
 </body>
 </html>

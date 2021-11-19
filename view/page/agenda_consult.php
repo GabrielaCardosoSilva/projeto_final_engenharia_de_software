@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../../assets/css/grid.css">
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/style_consult.css">
-    <link rel="stylesheet" href="../../assets/css/modal_consult.css">
+    <link rel="stylesheet" href="../../assets/css/style_popup.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -18,6 +18,19 @@
 <body>
 
     <div class="grid-container">
+
+        <div class="model" id="model">
+            <div class="model-popup-delete">
+                <span class="material-icons" id="btn-close" onclick="show()">cancel</span>
+
+                <h1 class="h1-popup">Atenção</h1>
+                <p class="p-popup">Tem certeza que deseja excluir essa consulta?</p>
+
+                <button class="btn-action" id="delete">
+                    Confirmar exclusão
+                </button>          
+            </div>        
+        </div>
 
         <div class="navbar">
             <?php include('../layout/navbar.php')?>
@@ -29,7 +42,6 @@
             </a>
             <h1 class="h1-title">Consultar agendas</h1>
         </div>
-
 
         <div class="info">
             <form action=" " method="post"> 
@@ -49,36 +61,37 @@
                 <p>dd/mm/aaaa</p>
             </div>
 
-            <form action="" method="post">
-                <table class="table">
-                    <tr class="line">
-                        <td class="col1">
-                            <p>00:00</p>     
-                        </td>
+            <table class="table">
+                <tr class="line">
+                    <td class="col1">
+                        <p>00:00</p>     
+                    </td>
 
-                        <td class="col2">
-                            <p><span class="span-bold">Paciente:</span> Nome do paciente</p>
-                            <p><span class="span-bold">Médico:</span> Nome do médico</p>
-                            <p><span class="span-bold">Especialidade:</span> Especialidade X</p>
-                            <button class="more">Clique aqui para ver os detalhes do agendamento</button>
-                        </td>
+                    <td class="col2">
+                        <p><span class="span-bold">Paciente:</span> Nome do paciente</p>
+                        <p><span class="span-bold">Médico:</span> Nome do médico</p>
+                        <p><span class="span-bold">Especialidade:</span> Especialidade X</p>
+                    </td>
 
-                        <td class="col3">
-                            <button class="btn-action" id="btn-edit">
+                    <td class="col3">
+                        <button class="btn-action" id="btn-edit">
+                            <a href="" class="a-action">
                                 <span class="material-icons icon-edit">edit</span>
-                            </button>
-                            <button class="btn-action" id="open-modal"><!-- modal-button-->
-                                <span class="material-icons" id="icon-delete">delete</span>
-                            </button>
-                        </td>
-                    </tr>
-                </table>
-            </form>
+                            </a>
+                        </button>
+
+                        <button class="btn-action" id="btn-delete" onclick="show()">
+                            <span class="material-icons" id="icon-delete">delete</span>
+                        </button>
+                    </td>
+                </tr>
+            </table>
 
         </div>
+
     </div>
 
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>
-    <script type="text/javascript" src="../../assets/js/info_get.js"></script>
+    <script type="text/javascript" src="../../assets/js/popup.js"></script>
 </body>
 </html>
