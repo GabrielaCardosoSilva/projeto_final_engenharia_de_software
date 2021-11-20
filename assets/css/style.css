@@ -102,6 +102,11 @@ body{
     cursor: pointer;
 }
 
+#btn-edit-help:hover{
+    background-color: #ADBD5E;
+    border: 1px solid #ADBD5E;
+}
+
 #btn-edit:hover{
     background-color: #ADBD5E;
     border: 1px solid #ADBD5E;

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/style_consult.css">
     <link rel="stylesheet" href="../../assets/css/style_popup.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
@@ -68,7 +69,7 @@
                 <p><span class="span-bold">Telefone secundário: </span>00000000000</p>
                 <p><span class="span-bold">Número do convênio: </span>000000000</p>
 
-                <button class="btn-action" id="btn-edit">
+                <button class="btn-action" id="btn-edit-help">
                     <a href="" class="a-action">
                         <span class="material-icons icon-edit">edit</span>
                     </a>
@@ -124,9 +125,25 @@
                 </tr>
             </table>
 
-        </div>
+            <ul class="indicator">
+                <li class="li-indicator">
+                    <a href="#" aria-label="Previous" class="a-before">
+                        <i class='bx bx-chevron-left before'></i>
+                    </a>
+                </li>                      
+                
+                <li class="li-indicator">
+                    <a href="#" class="number"><?php echo "1"; ?></a>
+                </li>
+                
+                <li class="li-indicator">
+                    <a href="#" aria-label="Previous">
+                        <i class='bx bx-chevron-right previous' ></i>
+                    </a>      
+                </li>
+            </ul>
 
-    </div>
+        </div>
 
     <script type="text/javascript" src="../../assets/js/navbar.js"></script>
     <script type="text/javascript" src="../../assets/js/popup.js"></script>

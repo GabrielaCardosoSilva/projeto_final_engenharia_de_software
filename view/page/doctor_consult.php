@@ -67,7 +67,7 @@
                 <p><span class="span-bold">Telefone principal: </span>000000000</p>
                 <p><span class="span-bold">Telefone secundário: </span>00000000000</p>
 
-                <button class="btn-action" id="btn-edit">
+                <button class="btn-action" id="btn-edit-help">
                     <a href="" class="a-action">
                         <span class="material-icons icon-edit">edit</span>
                     </a>

@@ -55,7 +55,7 @@
                     </ul>
                 </p>
                 <p><span class="span-bold">Número do consultório: </span>00</p>
-                <button class="btn-action" id="btn-edit">
+                <button class="btn-action" id="btn-edit-help">
                     <a href="" class="a-action">
                         <span class="material-icons icon-edit">edit</span>
                     </a>

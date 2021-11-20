@@ -82,3 +82,35 @@ p{
 .list-doctor{
     text-indent: 20px;
 }
+
+.indicator{
+    position: absolute;
+    left: 50%;
+}
+
+.li-indicator{
+    display: inline;
+}
+
+.previous, .before{
+    color:#FFF;
+    font-weight: bold;
+    background-color: #8A9EBA;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+.previous:hover{
+    background-color: #6f8099;
+}
+
+.before:hover{
+    background-color: #6f8099;
+}
+
+.number{
+    text-decoration: none;
+    color:#8A9EBA;
+    font-size: 20px;
+    padding: 10px;
+}
