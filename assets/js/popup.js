@@ -23,3 +23,16 @@ function showMore(){
         document.body.scroll = "yes";
     }
 };
+
+function showHelp(){
+    if(document.getElementById('model-help').style.display == 'none'){
+        document.getElementById('model-help').style.display = 'block';
+        document.documentElement.style.overflow = 'hidden';
+                document.body.scroll = "no";
+    }
+    else{
+        document.getElementById('model-help').style.display = 'none';
+        document.documentElement.style.overflow = 'auto';
+        document.body.scroll = "yes";
+    }
+};

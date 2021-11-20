@@ -19,6 +19,16 @@
 
     <div class="grid-container">
 
+        <div class="model" id="model-help">
+            <div class="model-popup-help">
+                <span class="material-icons" id="btn-close" onclick="showHelp()">cancel</span>
+
+                <h1 class="h1-popup">Ajuda</h1>
+                <p class="p-popup">Você pode buscar agendas pela data, nome do médico e pelo nome do paciente usando o campo "Buscar". Após inserir o valor desejado, clique na lupa para procurá-lo.</p>
+                <p class="p-popup">Ao lado de cada agenda há os botões de editar e excluir. Se você precisar fazer alguma mudança na agenda, clique no botão com o símbolo de um lápis. Se for necessário excluir, clique no botão com o símbolo de uma lixeira.</p>
+            </div>        
+        </div>
+
         <div class="model" id="model">
             <div class="model-popup-delete">
                 <span class="material-icons" id="btn-close" onclick="show()">cancel</span>
@@ -37,9 +47,7 @@
         </div>
 
         <div class="title">
-            <a href="help.php">
-                <span class="material-icons help">help</span>
-            </a>
+            <span class="material-icons help" onclick="showHelp()">help</span>
             <h1 class="h1-title">Consultar agendas</h1>
         </div>
 

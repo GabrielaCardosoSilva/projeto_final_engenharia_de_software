@@ -18,6 +18,7 @@ body{
 .help{
     color: #8A9EBA;
     float: right;
+    cursor: pointer;
 }
 
 .h1-title{

@@ -7,7 +7,8 @@
     display: none;
 }
 
-.model-popup-delete, .model-popup, .model-popup-login{
+.model-popup-delete, .model-popup, 
+.model-popup-login, .model-popup-help{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -19,7 +20,7 @@
     padding: 20px;
 }
 
-.model-popup, .model-popup-login{
+.model-popup, .model-popup-login, .model-popup-help{
     height: auto;
 }
 
