@@ -94,7 +94,7 @@
                     <td class="col2">
                         <p><span class="span-bold">Número de identificação:</span> 00</p>
                         <p><span class="span-bold">Especialidade:</span> especialidade x</p>
-                        <button class="more" onclick="showMore()">Clique aqui para ver os detalhes do agendamento</button>
+                        <button class="more" onclick="showMore()">Clique aqui para ver os detalhes da especialidade</button>
                     </td>
 
                     <td class="col3">
