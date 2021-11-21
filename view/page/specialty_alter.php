@@ -23,7 +23,7 @@
 
                 <h1 class="h1-popup">Ajuda</h1>
                 <p class="p-popup">Para alterar especialidades, preencha os campos que aparecem na tela e clique no botão inferior direito escrito "Salvar".</p>
-                <p class="p-popup">Atenção aos campos marcados com um asterisco (*), pois eles são de preenchimento obrogatório e não será possível alterar uma especialidade se eles estiverem vazios.</p>
+                <p class="p-popup">Atenção aos campos marcados com um asterisco (*), pois eles são de preenchimento obrigatório e não será possível alterar uma especialidade se eles estiverem vazios.</p>
           
             </div>        
         </div>

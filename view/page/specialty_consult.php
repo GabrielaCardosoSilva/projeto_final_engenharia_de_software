@@ -46,8 +46,9 @@
             <div class="model-popup">
                 <span class="material-icons" id="btn-close" onclick="showMore()">cancel</span>
 
-                <h1 class="h1-popup">Especialidade X</h1>
+                <h1 class="h1-popup">Detalhes</h1>
 
+                <p><span class="span-bold">Especialidade: </span>especialidade x</p>
                 <p><span class="span-bold">Descrição: </span>xxxxxxxx</p>
                 <p><span class="span-bold">Médicos habilitados: </span>
                     <ul>
