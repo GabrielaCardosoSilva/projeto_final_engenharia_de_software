@@ -36,7 +36,7 @@
         <div class="title">
             <span class="material-icons help" onclick="showHelp()">help</span>
             <h1 class="h1-title">Alterar dados cadatrais de médicos</h1>
-            <p class="p-title">Para para alterar os dados de médicoss, preencha os campos abaixo e clique em salvar.</p>
+            <p class="p-title">Para para alterar os dados de médicos, preencha os campos abaixo e clique em salvar.</p>
         </div>
 
         <div class="info">
