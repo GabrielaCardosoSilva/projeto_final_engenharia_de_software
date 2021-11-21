@@ -76,13 +76,13 @@
                 </div>
 
                 <div class="single-input">
-                    <label for="father_name">* Nome do Pai</label>
+                    <label for="father_name">Nome do Pai</label>
                     <input type="text" name="input_father" class="input" id="father_name">
                 </div>
 
                 <div class="single-input">
                     <select name="opt_gender" id="opt_type">
-                        <option value="" disable selected>Gênero - selecione:</option>
+                        <option value="" disable selected>* Gênero - selecione:</option>
                         <option value="f">Feminino (cisgênero)</option>
                         <option value="m">Masculino (cisgênero)</option>
                         <option value="t">Transgênero</option>
@@ -91,13 +91,13 @@
                 </div>
                 
                 <div class="single-input">
-                    <label for="date" class="date">Data de Nascimento</label>
+                    <label for="date" class="date">* Data de Nascimento</label>
                     <input type="date" name="input_date" class="input" id="date" required>  
                 </div>
 
                 <div class="single-input">
                     <select name="opt_uf" id="opt_uf">
-                        <option value="" disable selected>UF - selecione:</option>
+                        <option value="" disable selected>* UF - selecione:</option>
                         <option value="AC">AC - Acre</option>
                         <option value="AL">AL - Alagoas</option>
                         <option value="AP">AP - Amapá</option>
@@ -176,6 +176,7 @@
 
                 <button type="submit" class="button">Salvar</button>
                 <button type="reset" class="button">Limpar</button>
+                <input type="button" value="Voltar" onClick="history.go(-1)" class="ipt-button">
             </form>
 
         </div>

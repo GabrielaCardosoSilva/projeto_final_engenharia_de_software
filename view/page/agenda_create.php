@@ -23,7 +23,7 @@
                 <span class="material-icons" id="btn-close" onclick="showHelp()">cancel</span>
 
                 <h1 class="h1-popup">Ajuda</h1>
-                <p class="p-popup">Para cadastrar novas consultas, preencha os campos que aparecem na tela e clique no botão inferior direito escrito "Salvar."</p>
+                <p class="p-popup">Para cadastrar novas consultas, preencha os campos que aparecem na tela e clique no botão inferior direito escrito "Salvar".</p>
                 <p class="p-popup">Atenção aos campos marcados com um asterisco (*), pois eles são de preenchimento obrogatório e não será possível cadastrar uma agenda se eles estiverem vazios.</p>
           
             </div>        
@@ -69,7 +69,7 @@
 
                 <div class="single-input">
                     <select name="opt_doctor" id="opt_doctor">
-                        <option value="" disable selected>Médico - selecione:</option>
+                        <option value="" disable selected>* Médico - selecione:</option>
                         <option value="d1">médico 1</option>
                         <option value="d2">médico 2</option>
                         <option value="d3">médico 3</option>
@@ -79,7 +79,7 @@
 
                 <div class="single-input">
                     <select name="opt_specialty" id="opt_specialty">
-                        <option value="" disable selected>Especialidade - selecione:</option>
+                        <option value="" disable selected>* Especialidade - selecione:</option>
                         <option value="s1">especialidade 1</option>
                         <option value="s2">especialidade 2</option>
                         <option value="s3">especialidade 3</option>

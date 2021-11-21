@@ -23,7 +23,7 @@
                 <span class="material-icons" id="btn-close" onclick="showHelp()">cancel</span>
 
                 <h1 class="h1-popup">Ajuda</h1>
-                <p class="p-popup">Para cadastrar novos(as) médicos(as), preencha os campos que aparecem na tela e clique no botão inferior direito escrito "Salvar."</p>
+                <p class="p-popup">Para cadastrar novos(as) médicos(as), preencha os campos que aparecem na tela e clique no botão inferior direito escrito "Salvar".</p>
                 <p class="p-popup">Atenção aos campos marcados com um asterisco (*), pois eles são de preenchimento obrogatório e não será possível cadastrar um médico(a) se eles estiverem vazios.</p>
           
             </div>        
@@ -73,7 +73,7 @@
 
                 <div class="single-input">
                     <select name="opt_specialty" id="opt_specialty">
-                        <option value="" disable selected>Especialidade - selecione:</option>
+                        <option value="" disable selected>* Especialidade - selecione:</option>
                         <option value="s1">especialidade 1</option>
                         <option value="s2">especialidade 2</option>
                         <option value="s3">especialidade 3</option>
@@ -93,7 +93,7 @@
 
                 <div class="single-input">
                     <select name="opt_gender" id="opt_type">
-                        <option value="" disable selected>Gênero - selecione:</option>
+                        <option value="" disable selected>* Gênero - selecione:</option>
                         <option value="f">Feminino (cisgênero)</option>
                         <option value="m">Masculino (cisgênero)</option>
                         <option value="t">Transgênero</option>
@@ -102,13 +102,13 @@
                 </div>
                 
                 <div class="single-input">
-                    <label for="date">Data de Nascimento</label>
+                    <label for="date">* Data de Nascimento</label>
                     <input type="date" name="input_date" class="input" id="date" required>
                 </div>
 
                 <div class="single-input">
                     <select name="opt_uf" id="opt_uf">
-                        <option value="" disable selected>UF - selecione:</option>
+                        <option value="" disable selected>* UF - selecione:</option>
                         <option value="AC">AC - Acre</option>
                         <option value="AL">AL - Alagoas</option>
                         <option value="AP">AP - Amapá</option>
@@ -171,7 +171,7 @@
                 </div>
 
                 <div class="single-input">
-                    <label for="tel1">Telefone pricipal</label>
+                    <label for="tel1">* Telefone pricipal</label>
                     <input type="tel" name="input_tel1" class="input" id="tel1" placeholder="Apenas números e com ddd" required>
                 </div>
 

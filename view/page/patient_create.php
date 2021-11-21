@@ -24,7 +24,7 @@
                 <span class="material-icons" id="btn-close" onclick="showHelp()">cancel</span>
 
                 <h1 class="h1-popup">Ajuda</h1>
-                <p class="p-popup">Para cadastrar novos pacientes, preencha os campos que aparecem na tela e clique no botão inferior direito escrito "Salvar."</p>
+                <p class="p-popup">Para cadastrar novos pacientes, preencha os campos que aparecem na tela e clique no botão inferior direito escrito "Salvar".</p>
                 <p class="p-popup">Atenção aos campos marcados com um asterisco (*), pois eles são de preenchimento obrogatório e não será possível cadastrar um paciente se eles estiverem vazios.</p>
           
             </div>        
@@ -81,13 +81,13 @@
                 </div>
 
                 <div class="single-input">
-                    <label for="father_name">* Nome do Pai</label>
+                    <label for="father_name">Nome do Pai</label>
                     <input type="text" name="input_father" class="input" id="father_name">
                 </div>
 
                 <div class="single-input">
                     <select name="opt_gender" id="opt_type">
-                        <option value="" disable selected>Gênero - selecione:</option>
+                        <option value="" disable selected>* Gênero - selecione:</option>
                         <option value="f">Feminino (cisgênero)</option>
                         <option value="m">Masculino (cisgênero)</option>
                         <option value="t">Transgênero</option>
@@ -96,13 +96,13 @@
                 </div>
                 
                 <div class="single-input">
-                    <label for="date" class="date">Data de Nascimento</label>
+                    <label for="date" class="date">* Data de Nascimento</label>
                     <input type="date" name="input_date" class="input" id="date" required>  
                 </div>
 
                 <div class="single-input">
                     <select name="opt_uf" id="opt_uf">
-                        <option value="" disable selected>UF - selecione:</option>
+                        <option value="" disable selected>* UF - selecione:</option>
                         <option value="AC">AC - Acre</option>
                         <option value="AL">AL - Alagoas</option>
                         <option value="AP">AP - Amapá</option>

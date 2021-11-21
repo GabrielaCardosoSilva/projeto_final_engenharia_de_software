@@ -104,6 +104,7 @@
 
                 <button type="button" class="button">Salvar</button>
                 <button type="reset" class="button">Limpar</button>
+                <input type="button" value="Voltar" onClick="history.go(-1)" class="ipt-button">
             </form>
             
         </div>

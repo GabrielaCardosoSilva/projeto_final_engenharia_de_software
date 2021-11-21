@@ -84,7 +84,7 @@
 
                 <div class="single-input">
                     <select name="opt_gender" id="opt_type">
-                        <option value="" disable selected>Gênero - selecione:</option>
+                        <option value="" disable selected>* Gênero - selecione:</option>
                         <option value="f">Feminino (cisgênero)</option>
                         <option value="m">Masculino (cisgênero)</option>
                         <option value="t">Transgênero</option>
@@ -93,13 +93,13 @@
                 </div>
                 
                 <div class="single-input">
-                    <label for="date">Data de Nascimento</label>
+                    <label for="date">* Data de Nascimento</label>
                     <input type="date" name="input_date" class="input" id="date" required>
                 </div>
 
                 <div class="single-input">
                     <select name="opt_uf" id="opt_uf">
-                        <option value="" disable selected>UF - selecione:</option>
+                        <option value="" disable selected>* UF - selecione:</option>
                         <option value="AC">AC - Acre</option>
                         <option value="AL">AL - Alagoas</option>
                         <option value="AP">AP - Amapá</option>
@@ -161,7 +161,7 @@
                 </div>
 
                 <div class="single-input">
-                    <label for="tel1">Telefone pricipal</label>
+                    <label for="tel1">* Telefone pricipal</label>
                     <input type="tel" name="input_tel1" class="input" id="tel1" placeholder="Apenas números e com ddd" required>
                 </div>
 
@@ -172,6 +172,7 @@
 
                 <button type="submit" class="button">Salvar</button>
                 <button type="reset" class="button">Limpar</button>
+                <input type="button" value="Voltar" onClick="history.go(-1)" class="ipt-button">
             </form>
 
         </div>

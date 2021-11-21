@@ -22,7 +22,7 @@
                 <span class="material-icons" id="btn-close" onclick="showHelp()">cancel</span>
 
                 <h1 class="h1-popup">Ajuda</h1>
-                <p class="p-popup">Para cadastrar novas especialidades, preencha os campos que aparecem na tela e clique no botão inferior direito escrito "Salvar."</p>
+                <p class="p-popup">Para cadastrar novas especialidades, preencha os campos que aparecem na tela e clique no botão inferior direito escrito "Salvar".</p>
                 <p class="p-popup">Atenção aos campos marcados com um asterisco (*), pois eles são de preenchimento obrogatório e não será possível cadastrar uma especialidade se eles estiverem vazios.</p>
             </div>        
         </div>

@@ -43,7 +43,6 @@
             </div>
 
             <div>
-                <button type="button" class="button">Cadastrar</button>
                 <button type="button" class="button">Entrar</button>
             </div>
         </form>
